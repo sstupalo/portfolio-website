@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <button>Boo bitch</button>
+      <button>Test Button</button>
     </div>
   );
 }
