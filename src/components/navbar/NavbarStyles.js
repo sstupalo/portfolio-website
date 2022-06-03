@@ -5,7 +5,7 @@ import '../../assets/fonts/fonts.css';
 export const NavbarContainer = styled.nav`
   width: 100%;
   height: ${(props) => (props.extendNavbar ? '100vh' : '80px')};
-  background-color: #FFC9C9;
+  background-color: #FFC9C933;
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
@@ -14,17 +14,17 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const LeftContainer = styled.div`
-  flex: 70%;
+  flex: 30%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding-left: 5%;
 `;
 
 export const RightContainer = styled.div`
-  flex: 30%;
+  flex: 70%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  padding-right: 5%;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -35,23 +35,30 @@ export const NavbarInnerContainer = styled.div`
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
+  align-items: center;
 `;
 
+// Navbar menu titles
 export const NavbarLink = styled(Link)`
-  color: white;
+  color: #747474FF;
   font-size: x-large;
   font-family: 'captura';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
-  margin: 10px;
+  margin: 15px;
+  &:hover {
+    color: #2B2B2BFF;
+    transform: scale(1.1);
+  }
   @media (max-width: 700px) {
     display: none;
   }
 `;
 
+// Narrow menu titles
 export const NavbarLinkExtended = styled(Link)`
-  color: white;
+  color: #747474FF;
   font-size: x-large;
   font-family: 'captura';
   font-weight: normal;
@@ -62,23 +69,29 @@ export const NavbarLinkExtended = styled(Link)`
 
 export const Logo = styled.img`
   margin: 10px;
-  max-width: 180px;
+  max-width: 60px;
   height: auto;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
+// Menu icon
 export const OpenLinksButton = styled.button`
   width: 70px;
   height: 50px;
   background: none;
   border: none;
-  color: white;
+  color: #2B2B2BFF;
   font-size: 45px;
   cursor: pointer;
+  justify-self: flex-end;
   @media (min-width: 700px) {
     display: none;
   }
 `;
 
+// Narrow menu
 export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;

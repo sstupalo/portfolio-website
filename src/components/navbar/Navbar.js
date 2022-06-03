@@ -11,15 +11,18 @@ import {
   OpenLinksButton,
   NavbarLinkExtended,
 } from './NavbarStyles';
-import LogoImg from '../../assets/logo.png';
+import LogoImg from '../../assets/logoBlank.png';
 
-function Navbar() {
+function Navbar(location) {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
+          <Logo src={LogoImg}></Logo>
+        </LeftContainer>
+        <RightContainer>
           <NavbarLinkContainer>
             <NavbarLink to='/'> Home</NavbarLink>
             <NavbarLink to='/experience'> Experience</NavbarLink>
@@ -33,9 +36,6 @@ function Navbar() {
               {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
             </OpenLinksButton>
           </NavbarLinkContainer>
-        </LeftContainer>
-        <RightContainer>
-          <Logo src={LogoImg}></Logo>
         </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
