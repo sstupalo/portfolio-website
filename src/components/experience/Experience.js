@@ -1,9 +1,9 @@
 import React from 'react'
 
-function experience() {
+function Experience() {
   return (
     <div>experience</div>
   )
 }
 
-export default experience
+export default Experience

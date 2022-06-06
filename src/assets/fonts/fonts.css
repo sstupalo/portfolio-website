@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'carniola';
-    src: url('./CarniolaRegular.ttf') format('ttf');
+    src: url('./Carniola.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'diodrum';
-    src: url('./DiodrumW03Semibold.ttf') format('ttf');
-    font-weight: normal;
+    src: url('./Diodrum W03 Semibold.ttf') format('ttf');
+    font-weight: 600;
     font-style: normal;
 }

@@ -9,7 +9,7 @@ import {
   NavbarLink,
   Logo,
   OpenLinksButton,
-  NavbarLinkExtended,
+  NavbarLinkExtended
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
 
