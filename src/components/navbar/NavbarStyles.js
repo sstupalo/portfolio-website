@@ -8,7 +8,7 @@ export const NavbarContainer = styled.nav`
   background-color: #FFC9C933;
   display: flex;
   flex-direction: column;
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     height: 80px;
   }
 `;
@@ -17,7 +17,7 @@ export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
   align-items: flex-end;
-  padding-left: 5%;
+  padding-left: 3%;
 `;
 
 export const RightContainer = styled.div`
@@ -51,7 +51,7 @@ export const NavbarLink = styled(Link)`
     color: #2B2B2BFF;
     transform: scale(1.1);
   }
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -65,6 +65,11 @@ export const NavbarLinkExtended = styled(Link)`
   font-style: normal;
   text-decoration: none;
   margin: 10px;
+  margin: 15px;
+  &:active {
+    color: #2B2B2BFF;
+    transform: scale(1.1);
+  }
 `;
 
 export const Logo = styled.img`
@@ -86,7 +91,7 @@ export const OpenLinksButton = styled.button`
   font-size: 45px;
   cursor: pointer;
   justify-self: flex-end;
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;
@@ -96,7 +101,7 @@ export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;

@@ -7,7 +7,7 @@ import {
 function Home() {
   return (
     <HomePageContainer>
-      <PageHeader title="Sophia Stupalo"/>
+      <PageHeader title="Sophie Stupalo"/>
     </HomePageContainer> 
   )
 }

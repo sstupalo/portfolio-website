@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import PageHeader from '../global/Global';
+import {
+  AwardsPageContainer
+} from './AwardsStyles';
 
 function Awards() {
   return (
-    <div>awards</div>
+    <AwardsPageContainer>
+      <PageHeader title="Awards"/>
+    </AwardsPageContainer> 
   )
 }
 

@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import PageHeader from '../global/Global';
+import {
+  ProjectsPageContainer
+} from './ProjectsStyles';
 
 function Projects() {
   return (
-    <div>projects</div>
+    <ProjectsPageContainer>
+      <PageHeader title="Projects"/>
+    </ProjectsPageContainer> 
   )
 }
 
