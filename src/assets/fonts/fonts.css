@@ -14,7 +14,11 @@
 
 @font-face {
     font-family: 'diodrum';
-    src: url('./Diodrum W03 Semibold.ttf') format('ttf');
-    font-weight: 600;
+    src: url('./Diodrum-Semibold.ttf') format('ttf'),
+    url('./Diodrum-Semibold.woff') format('woff'),
+    url('./Diodrum-Semibold.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
+
+
 }
