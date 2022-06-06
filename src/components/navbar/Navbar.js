@@ -6,10 +6,10 @@ import {
   NavbarExtendedContainer,
   NavbarInnerContainer,
   NavbarLinkContainer,
+  NavbarLinkContainerDesktop,
   NavbarLink,
   Logo,
-  OpenLinksButton,
-  NavbarLinkExtended
+  OpenLinksButton
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
 
@@ -24,10 +24,12 @@ function Navbar(location) {
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>
-            <NavbarLink to='/'> Home</NavbarLink>
-            <NavbarLink to='/experience'> Experience</NavbarLink>
-            <NavbarLink to='/projects'> Projects</NavbarLink>
-            <NavbarLink to='/awards'> Awards</NavbarLink>
+            <NavbarLinkContainerDesktop> 
+              <NavbarLink to='/'> Home</NavbarLink>
+              <NavbarLink to='/experience'> Experience</NavbarLink>
+              <NavbarLink to='/projects'> Projects</NavbarLink>
+              <NavbarLink to='/awards'> Awards</NavbarLink>
+            </NavbarLinkContainerDesktop>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -39,11 +41,15 @@ function Navbar(location) {
         </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
-        <NavbarExtendedContainer>
-          <NavbarLinkExtended to='/'> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to='/experience'> Experience</NavbarLinkExtended>
-          <NavbarLinkExtended to='/projects'> Projects</NavbarLinkExtended>
-          <NavbarLinkExtended to='/awards'> Awards</NavbarLinkExtended>
+        <NavbarExtendedContainer
+          onClick={() => {
+            setExtendNavbar((curr) => !curr);
+          }}
+        >
+          <NavbarLink to='/'> Home</NavbarLink>
+          <NavbarLink to='/experience'> Experience</NavbarLink>
+          <NavbarLink to='/projects'> Projects</NavbarLink>
+          <NavbarLink to='/awards'> Awards</NavbarLink>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

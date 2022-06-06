@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../../assets/fonts/fonts.css';
 
 export const NavbarContainer = styled.nav`
@@ -38,8 +38,15 @@ export const NavbarLinkContainer = styled.div`
   align-items: center;
 `;
 
-// Navbar menu titles
-export const NavbarLink = styled(Link)`
+export const NavbarLinkContainerDesktop = styled.div`
+  display: flex;
+  align-items: center;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavbarLink = styled(NavLink)`
   color: #747474FF;
   font-size: x-large;
   font-family: 'captura';
@@ -51,24 +58,9 @@ export const NavbarLink = styled(Link)`
     color: #2B2B2BFF;
     transform: scale(1.1);
   }
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-
-// Narrow menu titles
-export const NavbarLinkExtended = styled(Link)`
-  color: #747474FF;
-  font-size: x-large;
-  font-family: 'captura';
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  margin: 10px;
-  margin: 15px;
-  &:active {
-    color: #2B2B2BFF;
-    transform: scale(1.1);
+  &.active {
+    color: #FFC9C9FF;
+    transform: scale(1);
   }
 `;
 
@@ -81,7 +73,6 @@ export const Logo = styled.img`
   }
 `;
 
-// Menu icon
 export const OpenLinksButton = styled.button`
   width: 70px;
   height: 50px;
@@ -96,7 +87,6 @@ export const OpenLinksButton = styled.button`
   }
 `;
 
-// Narrow menu
 export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
