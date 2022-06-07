@@ -22,7 +22,7 @@ function Navbar(location) {
       <NavbarInnerContainer>
         <LeftContainer>
           <LogoContainer to='/'> 
-            <Logo src={LogoImg}></Logo> 
+            <Logo src={LogoImg}/>
           </LogoContainer>
         </LeftContainer>
         <RightContainer>

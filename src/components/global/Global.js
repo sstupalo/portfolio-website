@@ -2,7 +2,8 @@ import React from 'react';
 import {
     PageHeaderContainer,
     PageHeaderText,
-    PageHeaderDot
+    PageHeaderDot,
+    SubHeadingText
 } from './GlobalStyles';
 
 function PageHeader(props) {
@@ -13,4 +14,10 @@ function PageHeader(props) {
   )
 }
 
-export default PageHeader
+function SubHeading(props) {
+  return (
+    <SubHeadingText>{props.title}</SubHeadingText>
+  )
+}
+
+export {PageHeader, SubHeading};

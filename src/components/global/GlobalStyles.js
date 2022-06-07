@@ -29,3 +29,15 @@ export const PageHeaderDot = styled.h1`
     margin-top: 0%;
     margin-bottom: 0%;
 `
+
+export const SubHeadingText = styled.h2`
+    font-family: 'diodrum';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17pt;
+    display: flex;
+    align-items: center;
+    color: #2B2B2BFF;
+    margin-top: 0%;
+    margin-bottom: 0%;
+`

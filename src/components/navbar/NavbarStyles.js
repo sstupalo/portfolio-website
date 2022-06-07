@@ -55,12 +55,10 @@ export const NavbarLink = styled(NavLink)`
   text-decoration: none;
   margin: 15px;
   &:hover {
-    color: #2B2B2BFF;
     transform: scale(1.1);
   }
   &.active {
     color: #FFC9C9FF;
-    transform: scale(1);
   }
 `;
 
