@@ -6,6 +6,7 @@ import Home from './components/home/Home'
 import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Awards from './components/awards/Awards';
+import data from './assets/portfolio-content.json'
 
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/experience' element={<Experience/>}/>
-        <Route path='/projects' element={<Projects/>}/>
-        <Route path='/awards' element={<Awards/>}/>
+        <Route path='/' element={<Home data={data.home}/>}/>
+        <Route path='/experience' element={<Experience data={data.experience}/>}/>
+        <Route path='/projects' element={<Projects data={data.projects}/>}/>
+        <Route path='/awards' element={<Awards data={data.awards}/>}/>
       </Routes>
     </Router>
   );

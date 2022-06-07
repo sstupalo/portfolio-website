@@ -1,10 +1,10 @@
 import React from 'react';
-import PageHeader from '../global/Global';
+import { PageHeader } from '../global/Global';
 import {
   AwardsPageContainer
 } from './AwardsStyles';
 
-function Awards() {
+function Awards(props) {
   return (
     <AwardsPageContainer>
       <PageHeader title="Awards"/>

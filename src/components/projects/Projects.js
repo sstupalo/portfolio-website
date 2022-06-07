@@ -1,10 +1,10 @@
 import React from 'react';
-import PageHeader from '../global/Global';
+import { PageHeader } from '../global/Global';
 import {
   ProjectsPageContainer
 } from './ProjectsStyles';
 
-function Projects() {
+function Projects(props) {
   return (
     <ProjectsPageContainer>
       <PageHeader title="Projects"/>
