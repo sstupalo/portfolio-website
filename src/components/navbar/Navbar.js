@@ -9,6 +9,7 @@ import {
   NavbarLinkContainerDesktop,
   NavbarLink,
   Logo,
+  LogoContainer,
   OpenLinksButton
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
@@ -20,7 +21,9 @@ function Navbar(location) {
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
-          <Logo src={LogoImg}></Logo>
+          <LogoContainer to='/'> 
+            <Logo src={LogoImg}></Logo> 
+          </LogoContainer>
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>

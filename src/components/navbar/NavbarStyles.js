@@ -73,6 +73,11 @@ export const Logo = styled.img`
   }
 `;
 
+export const LogoContainer = styled(NavLink)`
+  display: flex;
+  align-items: center;
+`
+
 export const OpenLinksButton = styled.button`
   width: 70px;
   height: 50px;
