@@ -2,7 +2,11 @@ import React from 'react';
 import { PageHeader, SubHeading } from '../global/Global';
 import {
   HomePageContainer,
+  ContentContainer,
+  LeftContainer,
+  RightContainer,
   StyledFontAwesomeIcon,
+  DownloadIcon,
   DownloadButton,
   DownloadButtonLink,
   DownloadButtonText,
@@ -13,18 +17,23 @@ function Home(props) {
   return (
     <HomePageContainer>
       <PageHeader title='Sophie Stupalo'/>
-      <SubHeading title='Contact Details'/>
-      <SubHeading title='Education'/>
-      <SubHeading title='About Me'/>
-      <DownloadButton> 
-        <DownloadButtonLink> 
-          <DownloadButtonText>{props.data.title}Download Resume</DownloadButtonText>
-        </DownloadButtonLink>
-      </DownloadButton>
-      <StyledFontAwesomeIcon icon={faGraduationCap}/>
-      <StyledFontAwesomeIcon icon={faPhone}/>
-      <StyledFontAwesomeIcon icon={faEnvelope}/>
-      <StyledFontAwesomeIcon icon={faDownload}/>
+      <ContentContainer> 
+        <LeftContainer>
+          <SubHeading title='Contact Details'/><SubHeading title='Education'/>
+          <SubHeading title='About Me'/>
+          <DownloadButton> 
+            <DownloadButtonLink> 
+              <DownloadIcon icon={faDownload}/><DownloadButtonText>{props.data.download}</DownloadButtonText>
+            </DownloadButtonLink>
+          </DownloadButton>
+          <StyledFontAwesomeIcon icon={faGraduationCap}/>
+          <StyledFontAwesomeIcon icon={faPhone}/>
+          <StyledFontAwesomeIcon icon={faEnvelope}/>
+        </LeftContainer>
+        <RightContainer> 
+
+        </RightContainer>
+      </ContentContainer>
     </HomePageContainer> 
   )
 }

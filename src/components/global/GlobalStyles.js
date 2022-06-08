@@ -11,10 +11,12 @@ export const PageHeaderContainer = styled.div`
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
+    padding-bottom: 20px;
 
     @media (min-width: 768px) {
         font-size: 36pt;
         padding-top: 40px;
+    padding-bottom: 40px;
     }
 `
 
@@ -34,7 +36,7 @@ export const SubHeadingText = styled.h2`
     font-family: 'diodrum';
     font-style: normal;
     font-weight: 600;
-    font-size: 17pt;
+    font-size: 20pt;
     display: flex;
     align-items: center;
     color: #2B2B2BFF;

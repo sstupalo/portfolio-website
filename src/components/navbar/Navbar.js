@@ -14,7 +14,7 @@ import {
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
 
-function Navbar(location) {
+function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (

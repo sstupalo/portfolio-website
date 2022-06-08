@@ -7,4 +7,5 @@ export const ProjectsPageContainer = styled.div`
   background-color: #FFFFFFFF;
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 80px);
 `;

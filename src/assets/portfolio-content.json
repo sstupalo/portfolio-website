@@ -1,6 +1,9 @@
 {
+    "header":{
+
+    },
     "home": {
-      "title": "Download Resume"
+      "download": "Download Resume"
     },
     "experience":{
     },
@@ -8,5 +11,14 @@
     },
     "awards":{
 
+    },
+    "footer":{
+      "text": "Sophie Stupalo 2022",
+      "linkText": "CC BY-SA 4.0",
+      "copyrightUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "linkedinUrl": "https://www.linkedin.com/in/sophie-stupalo-2380a3194/",
+      "githubUrl": "https://github.com/sstupalo",
+      "envelopeUrl": "mailto:sophie@stupalo.com",
+      "phoneUrl": "tel:6476339839"
     }
   }
