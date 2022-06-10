@@ -15,10 +15,10 @@ function App() {
     <Router>
       <Navbar data={data.header}/>
       <Routes>
-        <Route path='/' element={<Home data={data.home}/>}/>
-        <Route path='/experience' element={<Experience data={data.experience}/>}/>
-        <Route path='/projects' element={<Projects data={data.projects}/>}/>
-        <Route path='/awards' element={<Awards data={data.awards}/>}/>
+        <Route path={data.header.homePath} element={<Home data={data.home}/>}/>
+        <Route path={data.header.experiencePath} element={<Experience data={data.experience}/>}/>
+        <Route path={data.header.projectsPath} element={<Projects data={data.projects}/>}/>
+        <Route path={data.header.awardsPath} element={<Awards data={data.awards}/>}/>
       </Routes>
       <Footer data={data.footer}/>
     </Router>

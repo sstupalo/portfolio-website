@@ -14,24 +14,24 @@ import {
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
 
-function Navbar() {
+function Navbar(props) {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
-          <LogoContainer to='/'> 
+          <LogoContainer to={props.data.homePath}> 
             <Logo src={LogoImg}/>
           </LogoContainer>
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>
             <NavbarLinkContainerDesktop> 
-              <NavbarLink to='/'> Home</NavbarLink>
-              <NavbarLink to='/experience'> Experience</NavbarLink>
-              <NavbarLink to='/projects'> Projects</NavbarLink>
-              <NavbarLink to='/awards'> Awards</NavbarLink>
+              <NavbarLink to={props.data.homePath}> {props.data.homeText}</NavbarLink>
+              <NavbarLink to={props.data.experiencePath}> {props.data.experienceText}</NavbarLink>
+              <NavbarLink to={props.data.projectsPath}> {props.data.projectsText}</NavbarLink>
+              <NavbarLink to={props.data.awardsPath}> {props.data.awardsText}</NavbarLink>
             </NavbarLinkContainerDesktop>
             <OpenLinksButton
               onClick={() => {
@@ -49,10 +49,10 @@ function Navbar() {
             setExtendNavbar((curr) => !curr);
           }}
         >
-          <NavbarLink to='/'> Home</NavbarLink>
-          <NavbarLink to='/experience'> Experience</NavbarLink>
-          <NavbarLink to='/projects'> Projects</NavbarLink>
-          <NavbarLink to='/awards'> Awards</NavbarLink>
+          <NavbarLink to={props.data.homePath}> {props.data.homeText}</NavbarLink>
+          <NavbarLink to={props.data.experiencePath}> {props.data.experienceText}</NavbarLink>
+          <NavbarLink to={props.data.projectsPath}> {props.data.projectsText}</NavbarLink>
+          <NavbarLink to={props.data.awardsPath}> {props.data.awardsText}</NavbarLink>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

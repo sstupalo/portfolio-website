@@ -1,6 +1,13 @@
 {
     "header":{
-
+      "homeText": "Home",
+      "experienceText": "Experience",
+      "projectsText": "Projects",
+      "awardsText": "Awards",
+      "homePath": "/",
+      "experiencePath": "/experience",
+      "projectsPath": "/projects",
+      "awardsPath": "/awards"
     },
     "home": {
       "download": "Download Resume"
