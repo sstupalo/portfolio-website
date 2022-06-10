@@ -13,6 +13,7 @@ import {
 } from './HomeStyles';
 import { faGraduationCap, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 
+
 function Home(props) {
   return (
     <HomePageContainer>
@@ -22,8 +23,8 @@ function Home(props) {
           <SubHeading title='Contact Details'/><SubHeading title='Education'/>
           <SubHeading title='About Me'/>
           <DownloadButton> 
-            <DownloadButtonLink> 
-              <DownloadIcon icon={faDownload}/><DownloadButtonText>{props.data.download}</DownloadButtonText>
+            <DownloadButtonLink href={props.data.resumeLink} download> 
+              <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Resume</DownloadButtonText>
             </DownloadButtonLink>
           </DownloadButton>
           <StyledFontAwesomeIcon icon={faGraduationCap}/>

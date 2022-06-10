@@ -58,6 +58,7 @@ export const DownloadButtonLink = styled.a`
   align-items: center;
   justify-content: center;
   column-gap: 10px;
+  text-decoration: none;
 `
 
 export const DownloadButtonText = styled.text`

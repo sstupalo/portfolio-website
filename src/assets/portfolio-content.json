@@ -10,7 +10,10 @@
       "awardsPath": "/awards"
     },
     "home": {
-      "download": "Download Resume"
+      "resumeLink": "SophieStupaloOfficialResume.pdf",
+      "envelopeUrl": "mailto:sophie@stupalo.com",
+      "phoneUrl": "tel:6476339839",
+      "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics"
     },
     "experience":{
     },
