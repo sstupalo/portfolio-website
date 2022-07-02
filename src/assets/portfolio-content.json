@@ -11,9 +11,12 @@
     },
     "home": {
       "resumeLink": "SophieStupaloOfficialResume.pdf",
-      "envelopeUrl": "mailto:sophie@stupalo.com",
-      "phoneUrl": "tel:6476339839",
-      "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics"
+      "emailLink": "mailto:sophie@stupalo.com",
+      "emailText": "sophie@stupalo.com",
+      "phoneLink": "tel:6476339839",
+      "phoneText": "647 633 9839",
+      "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
+      "aboutMeParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum metus lorem, et faucibus dolor mollis eget. Nulla volutpat aliquet orci ac fermentum. Duis lorem lacus, sodales vel ultricies in, eleifend ac dui. Aliquam dictum fringilla felis, rhoncus eleifend lectus venenatis nec. Fusce vel eleifend magna. Donec lacinia dolor gravida, fermentum magna sit amet, gravida magna. Sed leo arcu, pellentesque at congue ut, ultricies vehicula elit. Nullam eu pulvinar magna. Curabitur rutrum tincidunt sem, non consectetur ipsum volutpat quis. Curabitur eu ligula porta, rhoncus arcu in, egestas mauris. Maecenas efficitur magna quis sagittis placerat. Mauris ultricies sodales massa in tempor. Nullam ut libero dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
     },
     "experience":{
     },

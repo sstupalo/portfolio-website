@@ -15,10 +15,10 @@ function Footer(props) {
   return (
     <FooterContainer>
       <IconContainer> 
-        <CopyrightLink href={props.data.linkedinUrl} target="_blank" rel="noopener noreferrer">
+        <CopyrightLink href={props.data.linkedinUrl} target='_blank' rel='noopener noreferrer'>
           <StyledFontAwesomeIcon icon={faLinkedin}/>
         </CopyrightLink>
-        <CopyrightLink href={props.data.githubUrl} target="_blank" rel="noopener noreferrer">
+        <CopyrightLink href={props.data.githubUrl} target='_blank' rel='noopener noreferrer'>
           <StyledFontAwesomeIcon icon={faGithub}/>
         </CopyrightLink>
         <CopyrightLink href={props.data.envelopeUrl}>
@@ -29,7 +29,7 @@ function Footer(props) {
         </CopyrightLink>
       </IconContainer>
       <CopyrightContainer>
-        <CopyrightLinkText>&copy; {props.data.text} &bull; <CopyrightLink href={props.data.copyrightUrl}>{props.data.linkText}</CopyrightLink></CopyrightLinkText>
+        <CopyrightLinkText>&copy; {props.data.text} &bull; <CopyrightLink href={props.data.copyrightUrl}  target='_blank' rel='noopener noreferrer'>{props.data.linkText}</CopyrightLink></CopyrightLinkText>
       </CopyrightContainer>
     </FooterContainer>
   )

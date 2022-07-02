@@ -8,8 +8,8 @@ export const PageHeaderContainer = styled.div`
     font-size: 17pt;
     display: flex;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -24,6 +24,7 @@ export const PageHeaderText = styled.h1`
     color: #2B2B2BFF;
     margin-top: 0%;
     margin-bottom: 0%;
+    white-space: nowrap; 
 `
 
 export const PageHeaderDot = styled.h1`
@@ -36,10 +37,12 @@ export const SubHeadingText = styled.h2`
     font-family: 'diodrum';
     font-style: normal;
     font-weight: 600;
-    font-size: 20pt;
+    font-size: 24pt;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     color: #2B2B2BFF;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
+    white-space: nowrap; 
 `

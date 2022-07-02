@@ -54,4 +54,5 @@ export const CopyrightLinkText = styled.text`
   font-style: normal;
   text-decoration: none;
   color: #2B2B2BFF;
+  white-space: nowrap; 
 `
