@@ -21,6 +21,56 @@
     "experience":{
     },
     "projects":{
+      "projectList":[
+        {
+          "title": "Lacrosse Club",
+          "subtitle": "University Athletics Club",
+          "type": "personal",
+          "image": "./projects/lacrosse.jpg"
+        },
+        {
+          "title": "Portfolio Website",
+          "subtitle": "Personal ReactJS ",
+          "type": "personal",
+          "image": "./projects/website.png"
+        },
+        {
+          "title": "Upright",
+          "subtitle": "Peripheral Neuropathy Solution",
+          "type": "school",
+          "image": "./projects/upright.png"
+        },
+        {
+          "title": "Deadlift Analysis",
+          "subtitle": "MOCAP Research Project",
+          "type": "school",
+          "image": "./projects/mocap.png"
+        },
+        {
+          "title": "Physiological Modelling",
+          "subtitle": "Optimizing FES Parameters",
+          "type": "school",
+          "image": "./projects/modelling.png"
+        },
+        {
+          "title": "A.R.M",
+          "subtitle": "First Year Design Project",
+          "type": "school",
+          "image": "./projects/arm.jpg"
+        },
+        {
+          "title": "Toytle",
+          "subtitle": "3D Printed Animal Puzzle",
+          "type": "school",
+          "image": "toytle.jpg"
+        },
+        {
+          "title": "Trebuchet",
+          "subtitle": "Grade 12 Physics Project",
+          "type": "school",
+          "image": "./projects/trebuchet.png"
+        }
+      ]
     },
     "awards":{
 

@@ -4,7 +4,7 @@ import {
   ExperiencePageContainer
 } from './ExperienceStyles';
 
-function Experience(props) {
+function Experience({data}) {
   return (
     <ExperiencePageContainer>
       <PageHeader title="Experience"/>

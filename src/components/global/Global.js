@@ -6,17 +6,17 @@ import {
     SubHeadingText
 } from './GlobalStyles';
 
-function PageHeader(props) {
+function PageHeader({title}) {
   return (
     <PageHeaderContainer>
-      <PageHeaderText>{props.title}</PageHeaderText><PageHeaderDot>.</PageHeaderDot>
+      <PageHeaderText>{title}</PageHeaderText><PageHeaderDot>.</PageHeaderDot>
     </PageHeaderContainer>
   )
 }
 
-function SubHeading(props) {
+function SubHeading({title}) {
   return (
-    <SubHeadingText>{props.title}</SubHeadingText>
+    <SubHeadingText>{title}</SubHeadingText>
   )
 }
 

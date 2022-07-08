@@ -9,3 +9,7 @@ export const ProjectsPageContainer = styled.div`
   flex-direction: column;
   height: calc(100vh - 80px);
 `;
+
+export const TileContainer = styled.div`
+  display: flex;
+`;

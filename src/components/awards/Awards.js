@@ -4,7 +4,7 @@ import {
   AwardsPageContainer
 } from './AwardsStyles';
 
-function Awards(props) {
+function Awards({data}) {
   return (
     <AwardsPageContainer>
       <PageHeader title="Awards"/>

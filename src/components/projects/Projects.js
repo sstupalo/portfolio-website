@@ -1,14 +1,27 @@
 import React from 'react';
 import { PageHeader } from '../global/Global';
 import {
-  ProjectsPageContainer
+  ProjectsPageContainer,
+  TileContainer
 } from './ProjectsStyles';
 
-function Projects(props) {
+
+function Projects({data}) {
   return (
     <ProjectsPageContainer>
       <PageHeader title="Projects"/>
+      <TileContainer> 
+        {data.projectList.map((project) => {
+          return <Tile data={project}/>;
+        })}
+      </TileContainer>
     </ProjectsPageContainer> 
+  )
+}
+
+function Tile({data}) {
+  return (
+    <h1>{data.title}</h1>
   )
 }
 

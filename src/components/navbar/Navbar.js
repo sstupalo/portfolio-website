@@ -14,24 +14,24 @@ import {
 } from './NavbarStyles';
 import LogoImg from '../../assets/logoBlank.png';
 
-function Navbar(props) {
+function Navbar({data}) {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   return (
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
         <LeftContainer>
-          <LogoContainer to={props.data.homePath}> 
+          <LogoContainer to={data.homePath}> 
             <Logo src={LogoImg}/>
           </LogoContainer>
         </LeftContainer>
         <RightContainer>
           <NavbarLinkContainer>
             <NavbarLinkContainerDesktop> 
-              <NavbarLink to={props.data.homePath}> {props.data.homeText}</NavbarLink>
-              <NavbarLink to={props.data.experiencePath}> {props.data.experienceText}</NavbarLink>
-              <NavbarLink to={props.data.projectsPath}> {props.data.projectsText}</NavbarLink>
-              <NavbarLink to={props.data.awardsPath}> {props.data.awardsText}</NavbarLink>
+              <NavbarLink to={data.homePath}> {data.homeText}</NavbarLink>
+              <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
+              <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
+              <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink>
             </NavbarLinkContainerDesktop>
             <OpenLinksButton
               onClick={() => {
@@ -49,10 +49,10 @@ function Navbar(props) {
             setExtendNavbar((curr) => !curr);
           }}
         >
-          <NavbarLink to={props.data.homePath}> {props.data.homeText}</NavbarLink>
-          <NavbarLink to={props.data.experiencePath}> {props.data.experienceText}</NavbarLink>
-          <NavbarLink to={props.data.projectsPath}> {props.data.projectsText}</NavbarLink>
-          <NavbarLink to={props.data.awardsPath}> {props.data.awardsText}</NavbarLink>
+          <NavbarLink to={data.homePath}> {data.homeText}</NavbarLink>
+          <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
+          <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
+          <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
