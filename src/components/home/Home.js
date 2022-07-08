@@ -18,7 +18,6 @@ import {
   ProfilePictureContainer,
   ProfilePicture
 } from './HomeStyles';
-import ProfileImage from '../../assets/headshot.jpg';
 import { faGraduationCap, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -55,7 +54,7 @@ function Home({data}) {
         </LeftContainer>
         <RightContainer>
           <ProfilePictureContainer>
-            <ProfilePicture src={ProfileImage}/>
+            <ProfilePicture src={data.profileImage}/>
           </ProfilePictureContainer>
         </RightContainer>
       </ContentContainer>

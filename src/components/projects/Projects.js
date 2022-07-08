@@ -2,7 +2,11 @@ import React from 'react';
 import { PageHeader } from '../global/Global';
 import {
   ProjectsPageContainer,
-  TileContainer
+  TileContainer,
+  TileBase,
+  ProjectTitle,
+  ProjectSubtitle,
+  ProjectImage
 } from './ProjectsStyles';
 
 
@@ -21,7 +25,11 @@ function Projects({data}) {
 
 function Tile({data}) {
   return (
-    <h1>{data.title}</h1>
+    <TileBase>
+      <ProjectImage src={data.image}/>
+      <ProjectTitle>{data.title}</ProjectTitle> 
+      <ProjectSubtitle>{data.subtitle}</ProjectSubtitle>
+    </TileBase>
   )
 }
 
