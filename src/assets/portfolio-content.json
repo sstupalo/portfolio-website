@@ -26,50 +26,56 @@
         {
           "title": "Lacrosse Club",
           "subtitle": "University Athletics Club",
-          "type": "personal",
+          "typeId": ["Personal"],
           "image": "/images/lacrosse.jpg"
         },
         {
           "title": "Portfolio Website",
           "subtitle": "Personal ReactJS ",
-          "type": "personal",
+          "typeId": ["Personal"],
           "image": "/images/website.png"
         },
         {
           "title": "Upright",
           "subtitle": "Peripheral Neuropathy Solution",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/upright.png"
         },
         {
           "title": "Deadlift Analysis",
           "subtitle": "MOCAP Research Project",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/mocap.png"
         },
         {
           "title": "Physiological Modelling",
           "subtitle": "Optimizing FES Parameters",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/modelling.png"
         },
         {
           "title": "A.R.M",
           "subtitle": "First Year Design Project",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/arm.jpg"
         },
         {
           "title": "Toytle",
           "subtitle": "3D Printed Animal Puzzle",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/toytle.jpg"
         },
         {
           "title": "Trebuchet",
           "subtitle": "Grade 12 Physics Project",
-          "type": "school",
+          "typeId": ["School"],
           "image": "/images/trebuchet.png"
+        },
+        {
+          "title": "Backyard Deck",
+          "subtitle": "Family Home Project",
+          "typeId": ["Personal"],
+          "image": ""
         }
       ]
     },
