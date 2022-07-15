@@ -74,7 +74,8 @@ export const FilterButton = styled.button`
   text-decoration: none;
   border: none;
   background: none;
-  word-spacing: 2rem;
+  margin-left: 4px;
+  margin-right: 4px;
   cursor: pointer;
   &:hover {
     color: #2B2B2BFF;
@@ -85,3 +86,36 @@ export const FilterButton = styled.button`
     text-decoration-color: #FFC9C9FF;
   } */
 `;
+
+export const ModalWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+`
+
+export const ModalBackdrop =styled.div`
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.3);
+`
+
+export const ModalBox = styled.div`
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 30%;
+  max-height: 80%;
+  width: 60%;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  z-index: 101;
+  padding: 40px;
+`

@@ -24,48 +24,56 @@
     "projects":{
       "projectList":[
         {
+          "id": 1,
           "title": "Lacrosse Club",
           "subtitle": "University Athletics Club",
           "typeId": ["Personal"],
           "image": "/images/lacrosse.jpg"
         },
         {
+          "id": 2,
           "title": "Portfolio Website",
           "subtitle": "Personal ReactJS ",
           "typeId": ["Personal"],
           "image": "/images/website.png"
         },
         {
+          "id": 3,
           "title": "Upright",
           "subtitle": "Peripheral Neuropathy Solution",
           "typeId": ["School"],
           "image": "/images/upright.png"
         },
         {
+          "id": 4,
           "title": "Deadlift Analysis",
           "subtitle": "MOCAP Research Project",
           "typeId": ["School"],
           "image": "/images/mocap.png"
         },
         {
+          "id": 5,
           "title": "Physiological Modelling",
           "subtitle": "Optimizing FES Parameters",
           "typeId": ["School"],
           "image": "/images/modelling.png"
         },
         {
+          "id": 6,
           "title": "A.R.M",
           "subtitle": "First Year Design Project",
           "typeId": ["School"],
           "image": "/images/arm.jpg"
         },
         {
+          "id": 7,
           "title": "Toytle",
           "subtitle": "3D Printed Animal Puzzle",
           "typeId": ["School"],
           "image": "/images/toytle.jpg"
         },
         {
+          "id": 8,
           "title": "Trebuchet",
           "subtitle": "Grade 12 Physics Project",
           "typeId": ["School"],
