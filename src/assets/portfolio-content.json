@@ -70,12 +70,6 @@
           "subtitle": "Grade 12 Physics Project",
           "typeId": ["School"],
           "image": "/images/trebuchet.png"
-        },
-        {
-          "title": "Backyard Deck",
-          "subtitle": "Family Home Project",
-          "typeId": ["Personal"],
-          "image": ""
         }
       ]
     },

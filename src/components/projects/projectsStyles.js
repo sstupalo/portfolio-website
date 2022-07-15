@@ -13,9 +13,13 @@ export const ProjectsPageContainer = styled.div`
 export const TileContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-`;
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+`
 
 export const TileBase = styled.div`
   display: flex;
@@ -56,25 +60,28 @@ export const ProjectImage = styled.img`
 `;
 
 export const FilterContainer = styled.div`
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;
 
 export const FilterButton = styled.button`
   color: #747474FF;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'captura';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
   border: none;
   background: none;
+  word-spacing: 2rem;
   cursor: pointer;
   &:hover {
     color: #2B2B2BFF;
     transform: scale(1.01);
   }
-  &.active {
+  /* &:focus {
     text-decoration: none;
     text-decoration-color: #FFC9C9FF;
-  }
+  } */
 `;

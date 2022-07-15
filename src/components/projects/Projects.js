@@ -10,7 +10,6 @@ import {
   FilterContainer,
   FilterButton
 } from './ProjectsStyles';
-// import {motion} from "framer-motion";
 
 
 function Projects({data}) {
