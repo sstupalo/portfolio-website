@@ -8,7 +8,7 @@ export const PageHeaderContainer = styled.div`
     font-size: 17pt;
     display: flex;
     align-items: center;
-    padding-left: 3%;
+    padding-left: 5%;
     padding-right: 3%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -43,6 +43,6 @@ export const SubHeadingText = styled.h2`
     justify-content: flex-start;
     color: #2B2B2BFF;
     margin-top: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     white-space: nowrap; 
 `

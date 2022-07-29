@@ -61,8 +61,8 @@ export const DownloadButton = styled.div`
   background-color: #2B2B2BFF;
   width: 100%;
   height: 40px;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 4%;
+  margin-bottom: 4%;
   &:hover {
     background-color: #747474FF;
   }

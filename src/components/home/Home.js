@@ -49,8 +49,8 @@ function Home({data}) {
               <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Resume</DownloadButtonText>
             </LinkContainer>
           </DownloadButton>
-          <SubHeading title='About Me'/>
-          <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
+          <SubHeading title='About'/>
+          <AboutMeParagraph>{data.aboutMeParagraph1}<br /><br />{data.aboutMeParagraph2}<br /><br />{data.aboutMeParagraph3}<br /><br />{data.aboutMeParagraph4}<br /><br />{data.aboutMeParagraph5}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
           <ProfilePictureContainer>

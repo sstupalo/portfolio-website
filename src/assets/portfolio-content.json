@@ -16,7 +16,11 @@
       "phoneLink": "tel:6476339839",
       "phoneText": "647 633 9839",
       "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
-      "aboutMeParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum metus lorem, et faucibus dolor mollis eget. Nulla volutpat aliquet orci ac fermentum. Duis lorem lacus, sodales vel ultricies in, eleifend ac dui. Aliquam dictum fringilla felis, rhoncus eleifend lectus venenatis nec. Fusce vel eleifend magna. Donec lacinia dolor gravida, fermentum magna sit amet, gravida magna. Sed leo arcu, pellentesque at congue ut, ultricies vehicula elit. Nullam eu pulvinar magna. Curabitur rutrum tincidunt sem, non consectetur ipsum volutpat quis. Curabitur eu ligula porta, rhoncus arcu in, egestas mauris. Maecenas efficitur magna quis sagittis placerat. Mauris ultricies sodales massa in tempor. Nullam ut libero dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "aboutMeParagraph1": "Sophie Stupalo is a 3rd year biomedical engineering student at the University of Waterloo.  She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.",
+      "aboutMeParagraph2": "Change is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.",
+      "aboutMeParagraph3": "Sophie is caring, productive, decisive, and a delightful team leader/contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.",
+      "aboutMeParagraph4": "Sophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable approach and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.",
+      "aboutMeParagraph5": "Welcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
       "profileImage": "/images/headshot.jpg"
     },
     "experience":{
@@ -78,6 +82,13 @@
           "subtitle": "Grade 12 Physics Project",
           "typeId": ["School"],
           "image": "/images/trebuchet.png"
+        },
+        {
+          "id": 9,
+          "title": "Deck",
+          "subtitle": "Family House Project",
+          "typeId": ["Personal"],
+          "image": "/images/deck.jpg"
         }
       ]
     },

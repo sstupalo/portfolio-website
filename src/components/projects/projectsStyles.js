@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import '../../assets/fonts/fonts.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ProjectsPageContainer = styled.div`
   width: 100%;
@@ -81,10 +82,18 @@ export const FilterButton = styled.button`
     color: #2B2B2BFF;
     transform: scale(1.01);
   }
-  /* &:focus {
-    text-decoration: none;
+  &:focus {
+    color: #2B2B2BFF;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: #FFC9C9FF;
-  } */
+  }
+  &.active {
+    color: #2B2B2BFF;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #FFC9C9FF;
+  }
 `;
 
 export const ModalWrapper = styled.div`
@@ -118,4 +127,12 @@ export const ModalBox = styled.div`
   box-shadow: 0 0 10px rgba(0,0,0,0.25);
   z-index: 101;
   padding: 40px;
+`
+
+export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+  color: #747474FF;
+  font-size: 20px;
+  &:hover{
+    color: #2B2B2BFF;
+  }
 `
