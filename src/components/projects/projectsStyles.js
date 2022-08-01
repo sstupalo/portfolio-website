@@ -25,6 +25,11 @@ export const TileContainer = styled.div`
 export const TileBase = styled.div`
   display: flex;
   flex-direction: column;
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    filter: brightness(80%);
+  }
 `;
 
 export const ProjectTitle = styled.h1`
@@ -54,10 +59,6 @@ export const ProjectSubtitle = styled.h1`
 export const ProjectImage = styled.img`
   width: 100%;
   height: auto;
-  filter: brightness(70%);
-  &:hover {
-    filter: none;
-  }
 `;
 
 export const FilterContainer = styled.div`
@@ -82,18 +83,10 @@ export const FilterButton = styled.button`
     color: #2B2B2BFF;
     transform: scale(1.01);
   }
-  &:focus {
-    color: #2B2B2BFF;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: #FFC9C9FF;
-  }
-  &.active {
-    color: #2B2B2BFF;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: #FFC9C9FF;
-  }
+  color: ${props => props.active ? '#2B2B2BFF' : '#747474FF'};
+  text-decoration: ${props => props.active ? 'underline' : 'normal'};
+  text-decoration-thickness: ${props => props.active ? '3px' : ''};
+  text-decoration-color: ${props => props.active ? '#FFC9C9FF' : ''};
 `;
 
 export const ModalWrapper = styled.div`
