@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import '../../assets/fonts/fonts.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 
 export const ProjectsPageContainer = styled.div`
   width: 100%;
@@ -128,4 +133,60 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   &:hover{
     color: #2B2B2BFF;
   }
+`
+
+export const ModalImage = styled.img`
+  max-height: 15rem;
+  height: auto;
+  border: 1px solid #747474FF;
+`;
+
+export const StyledDialog = styled(Dialog)`
+
+`
+
+export const StyledDialogActions = styled(DialogActions)`
+
+`
+
+export const StyledDialogContent = styled(DialogContent)`
+  overflow: auto;
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+    /* Shadows */
+    radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+    radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+    /* Shadows */
+    radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+    radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  background-attachment: local, local, scroll, scroll;
+`
+
+export const StyledDialogContentText = styled(DialogContentText)`
+
+`
+
+export const StyledDialogTitle = styled(DialogTitle)`
+
+`
+
+export const ModalTitle = styled.h1`
+
+`
+
+export const ModalSubtitle = styled.h2`
+
+`
+
+export const ModalSkills = styled.h3`
+
 `
