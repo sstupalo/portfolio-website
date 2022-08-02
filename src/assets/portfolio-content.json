@@ -30,7 +30,7 @@
           "typeId": ["Personal"],
           "image": "/images/lacrosse.jpg",
           "content": "Let Google help apps determine location. This means sending anonymous\n\nlocation data to Google, even when no apps are running.LLet Google help apps determine location. This means sending anonymous\n\non data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous\n\non data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous\n\nlocation data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous.",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/lax.jpg", "/images/content/lax2.jpg", "/images/content/lax3.jpg", "/images/content/lax4.jpg"]
         },
         {
           "id": 2,
@@ -43,28 +43,28 @@
         },
         {
           "id": 3,
-          "title": "Upright",
-          "subtitle": "Peripheral Neuropathy Solution",
-          "typeId": ["School"],
-          "image": "/images/upright.png",
-          "content": "",
-          "contentImages": ["/images/content/"]
-        },
-        {
-          "id": 4,
           "title": "Deadlift Analysis",
           "subtitle": "MOCAP Research Project",
           "typeId": ["School"],
           "image": "/images/mocap.png",
           "content": "",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/markers.png", "/images/content/mocapSetup.png", "/images/content/matlab.png", "/images/content/scaling.png", "/images/content/vertabrae.png", "/images/content/results_good.png", "/images/content/results_bad.png", "/images/content/results2_good.png", "/images/content/results2_bad.png"]
         },
         {
-          "id": 5,
+          "id": 4,
           "title": "Physiological Modelling",
           "subtitle": "Optimizing FES Parameters",
           "typeId": ["School"],
           "image": "/images/modelling.png",
+          "content": "",
+          "contentImages": ["/images/content/modelling.png", "/images/content/optimization.png", "/images/content/optimization3.png", "/images/content/curveFitting.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"]
+        },
+        {
+          "id": 5,
+          "title": "Upright",
+          "subtitle": "Peripheral Neuropathy Solution",
+          "typeId": ["School"],
+          "image": "/images/upright.png",
           "content": "",
           "contentImages": ["/images/content/"]
         },
@@ -102,7 +102,7 @@
           "typeId": ["Personal"],
           "image": "/images/deck.jpg",
           "content": "",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/deck.jpg", "/images/content/deck2.jpg", "/images/content/deck3.jpg", "/images/content/deck4.jpg", "/images/content/deck5.jpg", "/images/content/deck6.jpg"]
         }
       ]
     },

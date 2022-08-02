@@ -62,12 +62,9 @@ function Tile({data}) {
                 <StyledDialogContentText>{data.content}</StyledDialogContentText>
                 </StyledDialogContent>
                 <StyledDialogActions>
-                    <ModalImage src={data.image}/>
-                    <ModalImage src={data.image}/>
-                    <ModalImage src={data.image}/>
-                    <ModalImage src={data.image}/>
-                    <ModalImage src={data.image}/>
-                    <ModalImage src={data.image}/>
+                    {data.contentImages.map((contentImages) => {
+                        return <ModalImage src={contentImages}/>;
+                    })}
                 </StyledDialogActions>
             </StyledDialog>
         </div>
