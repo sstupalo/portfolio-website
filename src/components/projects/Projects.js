@@ -4,18 +4,9 @@ import Tile from './Tile'
 import {
   ProjectsPageContainer,
   TileContainer,
-  TileBase,
-  ProjectTitle,
-  ProjectSubtitle,
-  ProjectImage,
   FilterContainer,
-  FilterButton,
-  ModalWrapper,
-  ModalBackdrop,
-  ModalBox,
-  StyledFontAwesomeIcon
+  FilterButton
 } from './ProjectsStyles';
-import { faXmark } from '@fortawesome/free-solid-svg-icons'
 
 function Projects({data}) {
   const [filtered, setFiltered] = useState([]);

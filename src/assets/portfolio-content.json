@@ -16,11 +16,7 @@
       "phoneLink": "tel:6476339839",
       "phoneText": "647 633 9839",
       "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
-      "aboutMeParagraph1": "Sophie Stupalo is a 3rd year biomedical engineering student at the University of Waterloo.  She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.",
-      "aboutMeParagraph2": "Change is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.",
-      "aboutMeParagraph3": "Sophie is caring, productive, decisive, and a delightful team leader/contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.",
-      "aboutMeParagraph4": "Sophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable approach and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.",
-      "aboutMeParagraph5": "Welcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
+      "aboutMeParagraph": "Sophie Stupalo is a 3rd year biomedical engineering student at the University of Waterloo. She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.\n\nChange is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.\n\nSophie is caring, productive, decisive, and a delightful team leader and contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.\n\nSophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable approach and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.\n\nWelcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
       "profileImage": "/images/headshot.jpg"
     },
     "experience":{
@@ -33,15 +29,17 @@
           "subtitle": "University Athletics Club",
           "typeId": ["Personal"],
           "image": "/images/lacrosse.jpg",
-          "skills": "Leadership, Product Management, & "
+          "content": "Let Google help apps determine location. This means sending anonymous\n\nlocation data to Google, even when no apps are running.LLet Google help apps determine location. This means sending anonymous\n\non data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous\n\non data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous\n\nlocation data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous.",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 2,
           "title": "Portfolio Website",
-          "subtitle": "Personal ReactJS ",
+          "subtitle": "Personal ReactJS Project",
           "typeId": ["Personal"],
           "image": "/images/website.png",
-          "skills": "ReactJS, Debugging, CSS, & Styled Components"
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 3,
@@ -49,7 +47,8 @@
           "subtitle": "Peripheral Neuropathy Solution",
           "typeId": ["School"],
           "image": "/images/upright.png",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 4,
@@ -57,7 +56,8 @@
           "subtitle": "MOCAP Research Project",
           "typeId": ["School"],
           "image": "/images/mocap.png",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 5,
@@ -65,7 +65,8 @@
           "subtitle": "Optimizing FES Parameters",
           "typeId": ["School"],
           "image": "/images/modelling.png",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 6,
@@ -73,7 +74,8 @@
           "subtitle": "First Year Design Project",
           "typeId": ["School"],
           "image": "/images/arm.jpg",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 7,
@@ -81,7 +83,8 @@
           "subtitle": "3D Printed Animal Puzzle",
           "typeId": ["School"],
           "image": "/images/toytle.jpg",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 8,
@@ -89,7 +92,8 @@
           "subtitle": "Grade 12 Physics Project",
           "typeId": ["School"],
           "image": "/images/trebuchet.png",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         },
         {
           "id": 9,
@@ -97,7 +101,8 @@
           "subtitle": "Family House Project",
           "typeId": ["Personal"],
           "image": "/images/deck.jpg",
-          "skills": ""
+          "content": "",
+          "contentImages": ["/images/content/"]
         }
       ]
     },

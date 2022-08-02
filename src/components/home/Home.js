@@ -50,7 +50,7 @@ function Home({data}) {
             </LinkContainer>
           </DownloadButton>
           <SubHeading title='About'/>
-          <AboutMeParagraph>{data.aboutMeParagraph1}<br /><br />{data.aboutMeParagraph2}<br /><br />{data.aboutMeParagraph3}<br /><br />{data.aboutMeParagraph4}<br /><br />{data.aboutMeParagraph5}</AboutMeParagraph>
+          <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
           <ProfilePictureContainer>

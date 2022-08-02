@@ -100,7 +100,9 @@ export const AboutMeParagraph = styled.p`
   text-decoration: none;
   color: #747474FF;
   margin-top: 0%;
-  margin-bottom: 5%
+  margin-bottom: 5%;
+  white-space: pre-line;
+  text-align: justify;
 `
 
 export const ProfilePictureContainer = styled.div`

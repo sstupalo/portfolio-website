@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import CloseIcon from '@material-ui/icons/Close';
 import {
     TileBase,
     ProjectTitle,
@@ -12,11 +13,13 @@ import {
     StyledDialogContent,
     StyledDialogContentText,
     StyledDialogTitle,
+    ModalTitleContainer,
     ModalTitle,
+    ModalTitleDot,
     ModalSubtitle,
-    ModalSkills,
+    StyledIconButton,
+    ModalTopContainer
   } from './ProjectsStyles';
-
   
 
 function Tile({data}) {
@@ -45,33 +48,23 @@ function Tile({data}) {
                 maxWidth='lg'
             >
                 <StyledDialogTitle id="responsive-dialog-title">
-                    <ModalTitle>{data.title}</ModalTitle>
+                    <ModalTopContainer>
+                        <ModalTitleContainer>
+                            <ModalTitle>{data.title}</ModalTitle><ModalTitleDot>.</ModalTitleDot>  
+                        </ModalTitleContainer>
+                        <StyledIconButton aria-label="close" onClick={handleClose}>
+                            <CloseIcon />
+                        </StyledIconButton>
+                    </ModalTopContainer>
                     <ModalSubtitle>{data.subtitle}</ModalSubtitle>
-                    <ModalSkills>Skills Developed: {data.skills}</ModalSkills>
                 </StyledDialogTitle>
                 <StyledDialogContent>
-                <StyledDialogContentText>
-                    Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.LLet Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.Let Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.et Google help apps determine location. This means sending anonymous
-                    location data to Google, even when no apps are running.
-                </StyledDialogContentText>
+                <StyledDialogContentText>{data.content}</StyledDialogContentText>
                 </StyledDialogContent>
                 <StyledDialogActions>
+                    <ModalImage src={data.image}/>
+                    <ModalImage src={data.image}/>
+                    <ModalImage src={data.image}/>
                     <ModalImage src={data.image}/>
                     <ModalImage src={data.image}/>
                     <ModalImage src={data.image}/>

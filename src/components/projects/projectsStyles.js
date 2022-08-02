@@ -6,6 +6,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import IconButton from '@material-ui/core/IconButton';
 
 export const ProjectsPageContainer = styled.div`
   width: 100%;
@@ -64,6 +65,8 @@ export const ProjectSubtitle = styled.h1`
 export const ProjectImage = styled.img`
   width: 100%;
   height: auto;
+  margin-bottom: 5px;
+  filter: drop-shadow(2px 2px 4px #000000AA);
 `;
 
 export const FilterContainer = styled.div`
@@ -138,7 +141,7 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
 export const ModalImage = styled.img`
   max-height: 15rem;
   height: auto;
-  border: 1px solid #747474FF;
+  filter: drop-shadow(0px 4px 4px #000000AA);
 `;
 
 export const StyledDialog = styled(Dialog)`
@@ -146,7 +149,7 @@ export const StyledDialog = styled(Dialog)`
 `
 
 export const StyledDialogActions = styled(DialogActions)`
-
+  overflow-x: scroll;
 `
 
 export const StyledDialogContent = styled(DialogContent)`
@@ -172,21 +175,52 @@ export const StyledDialogContent = styled(DialogContent)`
 `
 
 export const StyledDialogContentText = styled(DialogContentText)`
-
+  white-space: pre-line;
 `
 
 export const StyledDialogTitle = styled(DialogTitle)`
 
 `
 
-export const ModalTitle = styled.h1`
+export const ModalTitleContainer = styled.div`
+    font-family: 'diodrum';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+`
 
+export const ModalTitle = styled.h1`
+    color: #2B2B2BFF;
+    margin-top: 0%;
+    margin-bottom: 0%;
+`
+
+export const ModalTitleDot = styled.h1`
+    color: #FFC9C9FF;
+    margin-top: 0%;
+    margin-bottom: 0%;
+`
+
+export const ModalTopContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
 `
 
 export const ModalSubtitle = styled.h2`
-
+    font-family: 'diodrum';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14pt;
+    color: #FFC9C9FF;
+    margin-top: 0%;
+    margin-bottom: 0%;
 `
 
-export const ModalSkills = styled.h3`
-
+export const StyledIconButton = styled(IconButton)`
+    position: 'absolute';
+    right: 5px;
+    top: 5px;
+    color: #9E9E9EFF;
 `
