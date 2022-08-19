@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export const FooterContainer = styled.div`
   width: 100%;
   height: 40px;
-  background-color: #FFC9C9FF;
+  background-color: #FFC9C933;
   display: flex;
   align-items: center;
   justify-content: center;
