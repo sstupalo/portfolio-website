@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import '../../assets/fonts/fonts.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
@@ -97,52 +96,21 @@ export const FilterButton = styled.button`
   text-decoration-color: ${props => props.active ? '#FFC9C9FF' : ''};
 `;
 
-export const ModalWrapper = styled.div`
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-`
-
-export const ModalBackdrop =styled.div`
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  background-color: rgba(0,0,0,0.3);
-`
-
-export const ModalBox = styled.div`
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-height: 30%;
-  max-height: 80%;
-  width: 60%;
-  overflow-y: auto;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.25);
-  z-index: 101;
-  padding: 40px;
-`
-
-export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  color: #747474FF;
-  font-size: 20px;
-  &:hover{
-    color: #2B2B2BFF;
-  }
-`
-
 export const ModalImage = styled.img`
   max-height: 15rem;
   height: auto;
   filter: drop-shadow(0px 4px 4px #000000AA);
 `;
+
+export const ModalImageContainer = styled.div`
+  display: flex;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  white-space: nowrap;
+`
 
 export const StyledDialog = styled(Dialog)`
 
@@ -150,6 +118,7 @@ export const StyledDialog = styled(Dialog)`
 
 export const StyledDialogActions = styled(DialogActions)`
   overflow-x: scroll;
+  white-space: nowrap;
 `
 
 export const StyledDialogContent = styled(DialogContent)`

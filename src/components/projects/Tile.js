@@ -8,6 +8,7 @@ import {
     ProjectSubtitle,
     ProjectImage,
     ModalImage,
+    ModalImageContainer,
     StyledDialog,
     StyledDialogActions,
     StyledDialogContent,
@@ -63,7 +64,11 @@ function Tile({data}) {
                 </StyledDialogContent>
                 <StyledDialogActions>
                     {data.contentImages.map((contentImages) => {
-                        return <ModalImage src={contentImages}/>;
+                        return (
+                            <ModalImageContainer>
+                                <ModalImage src={contentImages}/>
+                            </ModalImageContainer>
+                        );
                     })}
                 </StyledDialogActions>
             </StyledDialog>
