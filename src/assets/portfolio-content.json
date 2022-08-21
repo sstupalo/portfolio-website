@@ -64,7 +64,7 @@
         {
           "id": 6,
           "company": "City of Brampton",
-          "position": "Lifeguard and Swim Instructor",
+          "position": "Lifeguard & Swim Instructor",
           "dates": "Sep 2017 - Aug 2019",
           "image": "/images/brampton.png",
           "content": "Developed haSimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologyrdware specific embedded Linux distributions for custom PCB assemblies using the Yocto tool (images)"

@@ -6,7 +6,8 @@ import {
   PositionText,
   DateText,
   ContentText,
-  CompanyImage
+  CompanyImage,
+  ContentContainer
 } from './ExperienceStyles';
 import { 
   Timeline,
@@ -22,23 +23,45 @@ function Experience({data}) {
     <ExperiencePageContainer>
       <PageHeader title="Experience"/>
       <Timeline> 
-        {data.experienceList.map((experienceList) => {
-          return (
-            <TimelineItem>
-              <TimelineOppositeContent>
-                <CompanyText>{experienceList.company}</CompanyText>
-                <PositionText>{experienceList.position}</PositionText>
-                <DateText>{experienceList.dates}</DateText>
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <CompanyImage src={experienceList.image}/>
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <ContentText>{experienceList.content}</ContentText>
-              </TimelineContent>           
-            </TimelineItem>
-          );
+        {data.experienceList.map((experience) => {
+            if (7 === experience.id) {
+              return (
+                <TimelineItem>
+                  <TimelineOppositeContent sx={{ flex: 0.35 }}>
+                    <CompanyText>{experience.company}</CompanyText>
+                    <PositionText>{experience.position}</PositionText>
+                    <DateText>{experience.dates}</DateText>
+                  </TimelineOppositeContent>
+                  <TimelineSeparator>
+                    <CompanyImage src={experience.image}/>
+                  </TimelineSeparator>
+                  <TimelineContent>
+                    <ContentContainer>
+                      <ContentText>{experience.content}</ContentText>
+                    </ContentContainer>
+                  </TimelineContent>           
+                </TimelineItem>
+              );
+            } else {
+              return (
+                <TimelineItem>
+                  <TimelineOppositeContent sx={{ flex: 0.35 }}>
+                    <CompanyText>{experience.company}</CompanyText>
+                    <PositionText>{experience.position}</PositionText>
+                    <DateText>{experience.dates}</DateText>
+                  </TimelineOppositeContent>
+                  <TimelineSeparator>
+                    <CompanyImage src={experience.image}/>
+                    <TimelineConnector />
+                  </TimelineSeparator>
+                  <TimelineContent>
+                    <ContentContainer>
+                      <ContentText>{experience.content}</ContentText>
+                    </ContentContainer>
+                  </TimelineContent>           
+                </TimelineItem>
+              );
+            }
         })}
       </Timeline>
     </ExperiencePageContainer> 

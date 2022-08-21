@@ -7,7 +7,14 @@ export const ExperiencePageContainer = styled.div`
   background-color: #FFFFFFFF;
   display: flex;
   flex-direction: column;
+  `;
+
+export const ContentContainer = styled.div`
+  width: 100%;
   height: 100%;
+  background-color: #FFC9C933;
+  display: flex;
+  border-radius: 25px;
 `;
 
 export const CompanyText = styled.h1`
@@ -15,7 +22,7 @@ export const CompanyText = styled.h1`
   font-family: 'captura';
   font-style: normal;
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 18pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -29,7 +36,7 @@ export const PositionText = styled.h2`
   font-family: 'captura';
   font-style: normal;
   font-weight: 400;
-  font-size: 18pt;
+  font-size: 16pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -43,7 +50,7 @@ export const DateText = styled.h3`
   font-family: 'captura';
   font-style: normal;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 14pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -61,8 +68,9 @@ export const ContentText = styled.p`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  margin: 2rem;
+  white-space: pre-line;
+  text-align: justify;
 `
 
 export const CompanyImage = styled.img`
