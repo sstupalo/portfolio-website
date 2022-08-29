@@ -112,7 +112,7 @@ export const ProfilePictureContainer = styled.div`
 `
 
 export const ProfilePicture = styled.img`
-  margin: 10px;
+  margin: 5px;
   max-width: 400px;
   height: auto;
 `

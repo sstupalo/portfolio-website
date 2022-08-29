@@ -100,6 +100,7 @@ export const ModalImage = styled.img`
   max-height: 15rem;
   height: auto;
   filter: drop-shadow(0px 4px 4px #000000AA);
+  padding: 1rem;
 `;
 
 export const ModalImageContainer = styled.div`
@@ -112,13 +113,19 @@ export const ModalImageContainer = styled.div`
   white-space: nowrap;
 `
 
+export const ModalActionsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+`
+
 export const StyledDialog = styled(Dialog)`
 
 `
 
 export const StyledDialogActions = styled(DialogActions)`
-  overflow-x: scroll;
-  white-space: nowrap;
 `
 
 export const StyledDialogContent = styled(DialogContent)`

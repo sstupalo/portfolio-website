@@ -22,31 +22,16 @@ export const CompanyText = styled.h1`
   font-family: 'captura';
   font-style: normal;
   font-weight: 400;
-  font-size: 18pt;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  white-space: nowrap; 
-`
-
-export const PositionText = styled.h2`
-  color: #747474FF;
-  font-family: 'captura';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-top: 0%;
   margin-bottom: 0%;
-  white-space: nowrap; 
 `
 
-export const DateText = styled.h3`
-  color: #FFC9C9FF;
+export const PositionText = styled.h2`
+  color: #747474FF;
   font-family: 'captura';
   font-style: normal;
   font-weight: 400;
@@ -56,7 +41,19 @@ export const DateText = styled.h3`
   justify-content: flex-end;
   margin-top: 0%;
   margin-bottom: 0%;
-  white-space: nowrap; 
+`
+
+export const DateText = styled.h3`
+  color: #FFC9C9FF;
+  font-family: 'captura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12pt;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0%;
+  margin-bottom: 0%;
 `
 
 export const ContentText = styled.p`
@@ -64,7 +61,7 @@ export const ContentText = styled.p`
   font-family: 'carniola';
   font-style: normal;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 14pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -74,7 +71,7 @@ export const ContentText = styled.p`
 `
 
 export const CompanyImage = styled.img`
-  width: 100px;
+  width: 120px;
   height: auto;
   filter: drop-shadow(2px 2px 4px #000000AA);
 `;

@@ -52,7 +52,11 @@ function Experience({data}) {
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <CompanyImage src={experience.image}/>
-                    <TimelineConnector />
+                    <TimelineConnector
+                      sx={{
+                        backgroundColor: "#747474BFF",
+                      }}
+                    />
                   </TimelineSeparator>
                   <TimelineContent>
                     <ContentContainer>

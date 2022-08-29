@@ -19,7 +19,8 @@ import {
     ModalTitleDot,
     ModalSubtitle,
     StyledIconButton,
-    ModalTopContainer
+    ModalTopContainer,
+    ModalActionsContainer
   } from './ProjectsStyles';
   
 
@@ -63,13 +64,15 @@ function Tile({data}) {
                 <StyledDialogContentText>{data.content}</StyledDialogContentText>
                 </StyledDialogContent>
                 <StyledDialogActions>
-                    {data.contentImages.map((contentImages) => {
-                        return (
-                            <ModalImageContainer>
-                                <ModalImage src={contentImages}/>
-                            </ModalImageContainer>
-                        );
-                    })}
+                    <ModalActionsContainer>
+                        {data.contentImages.map((contentImages) => {
+                            return (
+                                <ModalImageContainer>
+                                    <ModalImage src={contentImages}/>
+                                </ModalImageContainer>
+                            );
+                        })}
+                    </ModalActionsContainer>
                 </StyledDialogActions>
             </StyledDialog>
         </div>
