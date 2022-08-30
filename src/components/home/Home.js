@@ -44,11 +44,11 @@ function Home({data}) {
               </LinkContainer>
             </DetailsContainer>
           </TopContentContainer>
-          <DownloadButton> 
-            <LinkContainer href={data.resumeLink} download> 
+          <LinkContainer href={data.resumeLink} download>
+            <DownloadButton> 
               <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Resume</DownloadButtonText>
-            </LinkContainer>
-          </DownloadButton>
+            </DownloadButton>
+          </LinkContainer>
           <SubHeading title='About'/>
           <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
         </LeftContainer>
