@@ -43,7 +43,7 @@
           "position": "Developer Research Assitant",
           "dates": "Jan 2021 - Apr 2021",
           "image": "/images/uwaterloo.png",
-          "content": ""
+          "content": "The Department of Management Sciences at the University of Waterloo recognized the need for a replacement data visualization tool to aid with their accreditation processes. As a developer research assistant supervised by Dr. Mehrdad Pirnia, I developed an R Shiny web app which helped the department consolidate all of their student data while generating specific tables and graphs for their CEAB outcomes-based assessment report. The visualisation tool was deployed on a remote Shiny Server running an Ubuntu operating system with an ODBC connection to a central MySQL database. Although I worked independently on this project, I took an agile approach to the engineering design process which involved weekly follow up meetings with Dr. Pirnia (the primary user) to discuss new features or requirements."
         },
         {
           "id": 4,
