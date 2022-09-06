@@ -51,7 +51,7 @@
           "position": "Platform Developer Intern",
           "dates": "May 2020 - Aug 2020",
           "image": "/images/gumstix.png",
-          "content": ""
+          "content": "Gumstix is an online marketplace for customizable embedded electronic hardware. During my term as a platform developer intern, I contributed to the development of hardware-specific embedded Linux distributions for custom PCB assemblies using Yocto. During the learning stage of my term, I had the task of diagnosing Gumstix images that were not executing properly by investigating the Linux file system and presenting possible solutions. This helped me to familiarize myself with the hardware I would continue to use throughout my term.\n\nLater I was responsible for updating all of the Gumstix meta layers and Yocto manifest to be compatible with Dunfell (the latest release of Yocto). While completing this task I learned how to configure PCB assemblies by modifying Device Tree Source files using overlays and parameters (pin multiplexing) to change the physical behaviour of targeted GPIOs.\n\nNear the end of my term I was tasked with enabling automatic detection and setup for two different Bluetooth/WiFi chip configurations. This involved writing Yocto recipes to install a module, initialisation tool, service, and udev rule file on the custom images. This was one of my most challenging work terms as I had to learn how to work with Linux, Yocto, and various hardware to be successful while working entirely remotely due to COVID-19. Despite the challenges, this term taught me resilience, resourcefulness, and when to ask for help."
         },
         {
           "id": 5,
