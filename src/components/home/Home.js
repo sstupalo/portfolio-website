@@ -5,6 +5,7 @@ import {
   ContentContainer,
   LeftContainer,
   RightContainer,
+  BottomContainer,
   TopContentContainer,
   DetailsContainer,
   StyledFontAwesomeIcon,
@@ -57,6 +58,11 @@ function Home({data}) {
             <ProfilePicture src={data.profileImage}/>
           </ProfilePictureContainer>
         </RightContainer>
+        <BottomContainer>
+          <ProfilePictureContainer>
+            <ProfilePicture src={data.profileImage}/>
+          </ProfilePictureContainer>
+        </BottomContainer>
       </ContentContainer>
     </HomePageContainer> 
   )

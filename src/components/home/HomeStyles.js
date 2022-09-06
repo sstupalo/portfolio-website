@@ -17,22 +17,44 @@ export const ContentContainer = styled.div`
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const LeftContainer = styled.div`
   display: flex;
   width: 60%;
   flex-direction: column;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const RightContainer = styled.div`
   display: flex;
   width: 35%;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const BottomContainer = styled.div`
+  display: flex;
+  width: 100%;
+  padding-bottom: 4%;
+  @media (min-width: 768px) {
+    display: none;
+  }
 `
 
 export const TopContentContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-left: 5%;
+  }
 `
 
 export const DetailsContainer  = styled.div`
@@ -52,6 +74,7 @@ export const GradCapIcon = styled(StyledFontAwesomeIcon)`
 export const DownloadIcon = styled(StyledFontAwesomeIcon)`
   color: #FFC9C9FF;
   font-size: 17px;
+  padding-right: 2%;
 `
 
 export const DownloadButton = styled.div`
@@ -85,7 +108,6 @@ export const ButtonText = styled.text`
   font-style: normal;
   text-decoration: none;
   color: #2B2B2BFF;
-  white-space: nowrap; 
 `
 
 export const DownloadButtonText = styled(ButtonText)`
@@ -107,12 +129,13 @@ export const AboutMeParagraph = styled.p`
 
 export const ProfilePictureContainer = styled.div`
   display: flex;
+  width: 100%;
   background-color: #2B2B2BFF;
-  padding: 2%;
 `
 
 export const ProfilePicture = styled.img`
-  margin: 5px;
-  max-width: 400px;
+  width: 96%;
+  max-width: 96%;
   height: auto;
+  padding: 2%;
 `
