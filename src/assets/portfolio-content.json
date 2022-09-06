@@ -16,7 +16,7 @@
       "phoneLink": "tel:6476339839",
       "phoneText": "647 633 9839",
       "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
-      "aboutMeParagraph": "Sophie Stupalo is a 3rd year biomedical engineering student at the University of Waterloo. She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.\n\nChange is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.\n\nSophie is caring, productive, decisive, and a delightful team leader and contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.\n\nSophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable approach and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.\n\nWelcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
+      "aboutMeParagraph": "Sophie Stupalo is a 3rd year biomedical engineering student at the University of Waterloo. She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.\n\nChange is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.\n\nSophie is caring, productive, decisive, and a delightful team leader and contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.\n\nSophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable mindset and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.\n\nWelcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
       "profileImage": "/images/headshot.jpg"
     },
     "experience":{
@@ -35,7 +35,7 @@
           "position": "Agile Software Developer",
           "dates": "Sept 2021 - Dec 2021",
           "image": "/images/christie.png",
-          "content": "Simulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologySimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodology"
+          "content": "Christie is a global audio-visual solutions company whose goal is to inspire audiences through exceptional experiences powered by their AV solutions and display products. As an agile software developer, I contributed to both the Mystique and Mystique Design Web (MDW) products while participating in regular agile sprint related meetings.\n\nThe Mystique software is an automated camera-based alignment and recalibration solution that streamlines the installation, alignment, calibration, and maintenance processes of multi-projection systems.\n\nMDW is a web application that allows users to simulate multi-projection setups and test the efficacy of the Mystique software prior to the final installation. My main term project involved developing the ability to simulate colour divergence and chromatic aberration within MDW. This full stack development used ReactJS to add UI inputs which allowed a user to select the translation, rotation, or scale of the red, green, or blue pixels of each projector. C++, CUDA, and OpenGL shaders were used to define the backend logic of each transformation and display where the transformed pixels would land on the screen.\n\nIn addition to my term project, I regularly completed bug fixes as they arose or were assigned to me."
         },
         {
           "id": 3,
@@ -43,7 +43,7 @@
           "position": "Developer Research Assitant",
           "dates": "Jan 2021 - Apr 2021",
           "image": "/images/uwaterloo.png",
-          "content": "Utilised the engineerinSimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologyg design process to design, develop, and deploy an R Shiny web app for Dr. Mehrdad Pirnia to produce data visualizations in support of the engineering accreditation process"
+          "content": ""
         },
         {
           "id": 4,
@@ -51,7 +51,7 @@
           "position": "Platform Developer Intern",
           "dates": "May 2020 - Aug 2020",
           "image": "/images/gumstix.png",
-          "content": "Developed hardwareSimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologySimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodology specific embedded Linux distributions for custom PCB assemblies using the Yocto tool (images)"
+          "content": ""
         },
         {
           "id": 5,
@@ -59,7 +59,7 @@
           "position": "Aerial Guide",
           "dates": "Mar 2019 - Mar 2020",
           "image": "/images/treetoptrekking.png",
-          "content": "DeSimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologyveloped hardware specific embedded Linux distributions for custom PCB assemblies using the Yocto tool (images)"
+          "content": ""
         },
         {
           "id": 6,
@@ -67,7 +67,7 @@
           "position": "Lifeguard & Swim Instructor",
           "dates": "Sep 2017 - Aug 2019",
           "image": "/images/brampton.png",
-          "content": "Developed haSimulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologyrdware specific embedded Linux distributions for custom PCB assemblies using the Yocto tool (images)"
+          "content": ""
         },
         {
           "id": 7,
@@ -75,7 +75,7 @@
           "position": "Lifeguard",
           "dates": "Apr 2017 - Sep 2017",
           "image": "/images/wetnwild.png",
-          "content": "Developed hardware specific Simulated colour divergence and chromatic aberration in an interactive web app using JavaScript, C++, CUDA, and OpenGL shaders\n\nCompleted bug fixes and feature adds in collaboration with a 15-person software development team while following an agile development methodologyembedded Linux distributions for custom PCB assemblies using the Yocto tool (images)"
+          "content": ""
         }
       ]
     },
