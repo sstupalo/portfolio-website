@@ -17,6 +17,26 @@ export const ContentContainer = styled.div`
   border-radius: 25px;
 `;
 
+export const CarouselContainer = styled.div`
+  display: flex;
+`;
+
+export const CarouselItemContainer = styled.div`
+  display: flex;
+`;
+
+export const PositionContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const GroupContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export const CompanyText = styled.h1`
   color: #2B2B2BFF;
   font-family: 'captura';

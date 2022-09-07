@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import { PageHeader } from '../global/Global';
-import Tile from './Tile'
+import Tile from './Tile';
 import {
   ProjectsPageContainer,
   TileContainer,
