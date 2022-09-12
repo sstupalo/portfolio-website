@@ -88,6 +88,7 @@ export const ContentText = styled.p`
   margin: 2rem;
   white-space: pre-line;
   text-align: justify;
+  margin: 2%;
 `
 
 export const CompanyImage = styled.img`
