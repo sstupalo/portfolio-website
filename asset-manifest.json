@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b069ce93.css",
-    "main.js": "/static/js/main.810b38f4.js",
+    "main.js": "/static/js/main.2d1a38ef.js",
     "static/media/logoBlank.png": "/static/media/logoBlank.d07515f10c5ccdfed025.png",
     "static/media/CapturaRegular.ttf": "/static/media/CapturaRegular.f900f8710ad2562f27c5.ttf",
     "static/media/Carniola.ttf": "/static/media/Carniola.3fc33aa0be38a884cf27.ttf",
@@ -10,10 +10,10 @@
     "static/media/Diodrum-Semibold.woff2": "/static/media/Diodrum-Semibold.5714cda66503b63c6c62.woff2",
     "index.html": "/index.html",
     "main.b069ce93.css.map": "/static/css/main.b069ce93.css.map",
-    "main.810b38f4.js.map": "/static/js/main.810b38f4.js.map"
+    "main.2d1a38ef.js.map": "/static/js/main.2d1a38ef.js.map"
   },
   "entrypoints": [
     "static/css/main.b069ce93.css",
-    "static/js/main.810b38f4.js"
+    "static/js/main.2d1a38ef.js"
   ]
 }
