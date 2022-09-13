@@ -19,6 +19,7 @@ import {
     ModalTitle,
     ModalTitleDot,
     ModalSubtitle,
+    ModalSubtitleContainer,
     StyledIconButton,
     ModalTopContainer,
     ModalActionsContainer,
@@ -59,13 +60,15 @@ function Tile({data}) {
                         <ModalTitleContainer>
                             <ModalTitle>{data.title}</ModalTitle>
                             <ModalTitleDot>.</ModalTitleDot>
-                            <DownloadButton data={data}/> 
                         </ModalTitleContainer>
                         <StyledIconButton aria-label="close" onClick={handleClose}>
                             <CloseIcon />
                         </StyledIconButton>
                     </ModalTopContainer>
-                    <ModalSubtitle>{data.subtitle}</ModalSubtitle>
+                    <ModalSubtitleContainer>
+                        <ModalSubtitle>{data.subtitle}</ModalSubtitle>
+                        <DownloadButton data={data}/> 
+                    </ModalSubtitleContainer>
                 </StyledDialogTitle>
                 <StyledDialogContent>
                 <StyledDialogContentText>{data.content}</StyledDialogContentText>

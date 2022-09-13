@@ -168,6 +168,16 @@ export const ModalTitleContainer = styled.div`
     align-items: center;
 `
 
+export const ModalSubtitleContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0px;
+    }
+`
+
 export const ModalTitle = styled.h1`
     color: #2B2B2BFF;
     margin-top: 0%;
@@ -214,10 +224,9 @@ export const DownloadButtonContainer = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #2B2B2BFF;
-  width: 100%;
+  width: 250px;
   height: 30px;
   border-radius: 30px;
-  margin-left: 90%;
   padding-left: 8%;
   padding-right: 8%;
   &:hover {
@@ -236,7 +245,7 @@ export const LinkContainer = styled.a`
 
 export const DownloadButtonText = styled.text`
   color: #FFC9C9FF;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: 'carniola';
   font-weight: normal;
   font-style: normal;
