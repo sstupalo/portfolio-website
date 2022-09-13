@@ -10,7 +10,7 @@
       "awardsPath": "/awards"
     },
     "home": {
-      "resumeLink": "SophieStupaloOfficialResume.pdf",
+      "resumeLink": "/documents/SophieStupaloOfficialResume.pdf",
       "emailLink": "mailto:sophie@stupalo.com",
       "emailText": "sophie@stupalo.com",
       "phoneLink": "tel:6476339839",
@@ -75,7 +75,7 @@
           "position": "Lifeguard",
           "dates": "Apr 2017 - Sep 2017",
           "image": "/images/wetnwild.png",
-          "content": "Wet ‘n’ Wild Toronto is a waterpark and where I got my first paid job. As a lifeguard, I worked with various lifeguarding teams supervising swimmers. Due to the popular/busy nature of the park, I ended up leading 11 successful rescues and acted as a supporting guard during countless other rescues."
+          "content": "Wet‘n’Wild Toronto is a waterpark and where I got my first paid job. As a lifeguard, I worked with various lifeguarding teams supervising swimmers. Due to the popular/busy nature of the park, I ended up leading 11 successful rescues and acted as a supporting guard during countless other rescues."
         }
       ]
     },
@@ -105,8 +105,9 @@
           "subtitle": "MOCAP Research Project",
           "typeId": ["School"],
           "image": "/images/mocap.png",
-          "content": "In my 3A term (Winter 2021) I took BME 588 – Special Topics in Biomechanics with a focus on Computational Biomechanics. Part of this course involved completing a biomechanical research project of choice. Since my partner and I had an interest in powerlifting and had often heard the claim that the rewards of deadlifts (one of the “big 3” lifts) were not worth the risks involved in the movement, we wanted to focus our research on proving whether or not this claim was true. Since our course had a significant focus on the OpenSim software, the objective of our study was to generate and validate two deadlifting motions (proper and improper form) in OpenSim with the purpose of contributing to combating this potential spread of misinformation in the powerlifting community.\n\nThe first step of this process involved collecting motion capture (MOCAP) data. Due to the multi-dimensional nature of human movement, this was accomplished using two different MOCAP techniques at once. The MOCAP setup involved two laptop cameras: one camera filming the anterior (front) view and one filming the right lateral (side) view of the deadlift subject. One of the two MOCAP techniques used was the MediaPipe Pose machine learning algorithm, which uses markerless pose tracking and background segmentation masking to infer the 3D location of 33 body landmarks. Note that none of these 33 landmarks were located along the spinal cord, therefore a second MOCAP technique was necessary to analyze spine curvature. The second MOCAP technique used a custom colour isolating algorithm which filtered by hue and saturation to isolate for the bright green markers which were glued onto our subject’s back. Before each deadlift recording was taken, the lights were flickered in order to sync the timing of each camera’s footage. We combined these datasets into the coordinate frame used by OpenSime by performing matrix transformations.\n\nOnce the MOCAP was finished we needed to translate our data from tables to a motion in OpenSim. This involved downloading the open source Full-Body Lifting model from SimTK, scaling the model based on our subject’s parameters, and placing markers on the model that coincided with each marker used during the data collection process. Once the markers were placed, we imported the MOCAP data as a motion file and ran an inverse kinematics simulation to visualise the motion of each subject. These models were then validated, and it was concluded that both motions were successfully created but with a degree of accuracy unsuitable for use in further research.\n\nI did not go into detail about it here, but we failed more times than we succeeded during this project and every small step forward became something to celebrate. Although this project was not successful, more than anything it taught me how to be resilient and how to work with any situation as grim as it may seem in the moment. Now it is easy to reflect and be extremely proud of what was accomplished during this project since we learned every technique and tool that we used in the moment while balancing the workload of 5 other courses.",
-          "contentImages": ["/images/content/markers.png", "/images/content/mocapSetup.png", "/images/content/matlab.png", "/images/content/scaling.png"]
+          "content": "In my 3A term (Winter 2021) I took BME 588 – Special Topics in Biomechanics with a focus on Computational Biomechanics. Part of this course involved completing a biomechanical research project of choice. Since my partner and I had an interest in powerlifting and had often heard the claim that the rewards of deadlifts (one of the “big 3” lifts) were not worth the risks involved in the movement, we wanted to focus our research on proving whether or not this claim was true. Since our course had a significant focus on the OpenSim software, the objective of our study was to generate and validate two deadlifting motions (proper and improper form) in OpenSim with the purpose of contributing to combating this potential spread of misinformation in the powerlifting community.\n\nThe first step of this process involved collecting motion capture (MOCAP) data. Due to the multi-dimensional nature of human movement, this was accomplished using two different MOCAP techniques at once. The MOCAP setup involved two laptop cameras: one camera filming the anterior (front) view and one filming the right lateral (side) view of the deadlift subject. One of the two MOCAP techniques used was the MediaPipe Pose machine learning algorithm, which uses markerless pose tracking and background segmentation masking to infer the 3D location of 33 body landmarks. Note that none of these 33 landmarks were located along the spinal cord, therefore a second MOCAP technique was necessary to analyze spine curvature. The second MOCAP technique used a custom colour isolating algorithm which filtered by hue and saturation to isolate for the bright green markers which were glued onto our subject’s back. Before each deadlift recording was taken, the lights were flickered in order to sync the timing of each camera’s footage. We combined these datasets into the coordinate frame used by OpenSim by performing matrix transformations.\n\nOnce the MOCAP was finished we needed to translate our data from tables to a motion in OpenSim. This involved downloading the open source Full-Body Lifting model from SimTK, scaling the model based on our subject’s parameters, and placing markers on the model that coincided with each marker used during the data collection process. Once the markers were placed, we imported the MOCAP data as a motion file and ran an inverse kinematics simulation to visualise the motion of each subject. These models were then validated, and it was concluded that both motions were successfully created but with a degree of accuracy unsuitable for use in further research.\n\nI did not go into detail about it here, but we failed more times than we succeeded during this project and every small step forward became something to celebrate. Although this project was not successful, more than anything it taught me how to be resilient and how to work with any situation as grim as it may seem in the moment. Now it is easy to reflect and be extremely proud of what was accomplished during this project since we learned every technique and tool that we used in the moment while balancing the workload of 5 other courses.",
+          "contentImages": ["/images/content/markers.png", "/images/content/mocapSetup.png", "/images/content/matlab.png", "/images/content/scaling.png"],
+          "document": "/documents/BME588ProjectFinalReportCourchesneStupalo.pdf"
         },
         {
           "id": 4,
@@ -115,7 +116,8 @@
           "typeId": ["School"],
           "image": "/images/modelling.png",
           "content": "",
-          "contentImages": ["/images/content/modelling.png", "/images/content/optimization.png", "/images/content/optimization3.png", "/images/content/curveFitting.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"]
+          "contentImages": ["/images/content/modelling.png", "/images/content/optimization.png", "/images/content/optimization3.png", "/images/content/curveFitting.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"],
+          "document": "/documents/BME355FinalReportGroup3.pdf"
         },
         {
           "id": 10,
@@ -133,7 +135,8 @@
           "typeId": ["School"],
           "image": "/images/upright.png",
           "content": "",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/"],
+          "document": "/documents/BME261ProjectFinalReport.pdf"
         },
         {
           "id": 6,

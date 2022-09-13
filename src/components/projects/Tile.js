@@ -2,6 +2,7 @@ import { React, useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import CloseIcon from '@material-ui/icons/Close';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import {
     TileBase,
     ProjectTitle,
@@ -20,7 +21,11 @@ import {
     ModalSubtitle,
     StyledIconButton,
     ModalTopContainer,
-    ModalActionsContainer
+    ModalActionsContainer,
+    DownloadButtonContainer,
+    DownloadButtonText,
+    DownloadIcon,
+    LinkContainer
   } from './ProjectsStyles';
   
 
@@ -52,7 +57,9 @@ function Tile({data}) {
                 <StyledDialogTitle id="responsive-dialog-title">
                     <ModalTopContainer>
                         <ModalTitleContainer>
-                            <ModalTitle>{data.title}</ModalTitle><ModalTitleDot>.</ModalTitleDot>  
+                            <ModalTitle>{data.title}</ModalTitle>
+                            <ModalTitleDot>.</ModalTitleDot>
+                            <DownloadButton data={data}/> 
                         </ModalTitleContainer>
                         <StyledIconButton aria-label="close" onClick={handleClose}>
                             <CloseIcon />
@@ -79,4 +86,17 @@ function Tile({data}) {
     )
 }
 
-export default Tile
+function DownloadButton({data}) {
+    if(data.document){
+        return (
+            <LinkContainer href={data.document} download>
+                <DownloadButtonContainer> 
+                    <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Full Report</DownloadButtonText>
+                </DownloadButtonContainer>
+            </LinkContainer>
+        )
+    }
+    return    
+}
+
+export {Tile, DownloadButton};

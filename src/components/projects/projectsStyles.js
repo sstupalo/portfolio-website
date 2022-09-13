@@ -6,6 +6,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import IconButton from '@material-ui/core/IconButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ProjectsPageContainer = styled.div`
   width: 100%;
@@ -199,4 +200,46 @@ export const StyledIconButton = styled(IconButton)`
     right: 5px;
     top: 5px;
     color: #9E9E9EFF;
+`
+
+export const DownloadIcon = styled(FontAwesomeIcon)`
+  font-size: 20px;
+  color: #FFC9C9FF;
+  font-size: 17px;
+  padding-right: 2%;
+`
+
+export const DownloadButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2BFF;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 90%;
+  padding-left: 8%;
+  padding-right: 8%;
+  &:hover {
+    background-color: #747474FF;
+  }
+`
+
+export const LinkContainer = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  text-decoration: none;
+  margin-left: 0%;
+`
+
+export const DownloadButtonText = styled.text`
+  color: #FFC9C9FF;
+  font-size: 16pt;
+  font-family: 'carniola';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  white-space: nowrap;
 `
