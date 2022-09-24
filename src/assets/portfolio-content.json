@@ -145,7 +145,7 @@
           "typeId": ["School"],
           "image": "/images/trebuchet.png",
           "content": "",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/treb10.png", "/images/content/treb9.png", "/images/content/treb1.jpg", "/images/content/treb2.png", "/images/content/trebuchet.png", "/images/content/treb3.png", "/images/content/treb4.png", "/images/content/treb5.png", "/images/content/treb6.png", "/images/content/treb7.jpg"]
         },
         {
           "id": 9,
@@ -154,25 +154,7 @@
           "typeId": ["Personal"],
           "image": "/images/deck.jpg",
           "content": "",
-          "contentImages": ["/images/content/deck.jpg", "/images/content/deck2.jpg", "/images/content/deck3.jpg", "/images/content/deck4.jpg", "/images/content/deck5.jpg", "/images/content/deck6.jpg"]
-        },
-        {
-          "id": 6,
-          "title": "A.R.M",
-          "subtitle": "First Year Design Project",
-          "typeId": ["School"],
-          "image": "/images/arm.jpg",
-          "content": "",
-          "contentImages": ["/images/content/"]
-        },
-        {
-          "id": 7,
-          "title": "Toytle",
-          "subtitle": "3D Printed Animal Puzzle",
-          "typeId": ["School"],
-          "image": "/images/toytle.jpg",
-          "content": "",
-          "contentImages": ["/images/content/"]
+          "contentImages": ["/images/content/deck5.jpg", "/images/content/deck6.jpg", "/images/content/deck7.png", "/images/content/deck2.jpg", "/images/content/deck3.jpg", "/images/content/deck4.jpg", "/images/content/deck8.jpg", "/images/content/deck9.jpg", "/images/content/deck.jpg"]
         }
       ]
     },
