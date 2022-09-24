@@ -115,8 +115,8 @@
           "subtitle": "Optimizing FES Parameters",
           "typeId": ["School"],
           "image": "/images/modelling.png",
-          "content": "",
-          "contentImages": ["/images/content/modelling.png", "/images/content/optimization.png", "/images/content/optimization3.png", "/images/content/curveFitting.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"],
+          "content": "In my 3A term (winter 2021) I took BME 355 – Physiological Systems Modelling. The term project for this course involved developing a model to determine optimal parameters (amplitude and frequency) for functional electrical stimulation (FES). Currently, FES is one of the most effective treatments of footdrop; an issue that occurs when an individual’s tibialis anterior (shin) muscle does not work properly, and they can no longer lift their toes while they walk. As described by its name, an FES device periodically stimulates the patient’s tibialis anterior muscle using small controlled electrical signals. Although this is the preferred treatment by patients, one of its main drawbacks is that it overstimulates the targeted muscles and quickly fatigues the muscle. The parameters of focus for this project were signal frequency and amplitude. The goal of this project was to determine the optimal parameters for FES. Optimal parameters would successfully reduce muscle fatigue caused by FES while lifting the foot sufficiently off the ground to prevent foot drop.\n\nWe achieved our goal by creating a simplified model of the leg, shank, and foot which was fixed at the hip but free to rotate at the knee and ankle joints. Using that model and first principles, we then created state-space equations to describe our system. With MATLAB, these equations allowed us to quantitatively evaluate the relationship between the height of the foot off the ground and the frequency or amplitude of the input signal. An exhaustive search determined that the optimal frequency and amplitude to be 50Hz and 2.177V, respectively. We then ran a final simulation to verify that these values for amplitude and frequency produced realistic foot and ankle behaviour and ensured that both the front and back of the foot cleared the ground, preventing foot drop.\n\nMy main contributions to this project involved generating the models for our simulations, managing our team, creating our final presentation, and performing the optimization of the FES parameters of interest. Throughout the whole project I acted as the project manager and facilitated communication across our various sub teams. My efforts to thoroughly understand our model and simulations allowed me to keep my other group members informed. I also challenged our approach to ensure we were not making any irrational assumptions. My contributions kept the team on track and allowed us to successfully determine optimal FES parameters through modelling and simulation.",
+          "contentImages": ["/images/content/modelling.png", "/images/content/optimization3.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"],
           "document": "/documents/BME355FinalReportGroup3.pdf"
         },
         {
@@ -139,24 +139,6 @@
           "document": "/documents/BME261ProjectFinalReport.pdf"
         },
         {
-          "id": 6,
-          "title": "A.R.M",
-          "subtitle": "First Year Design Project",
-          "typeId": ["School"],
-          "image": "/images/arm.jpg",
-          "content": "",
-          "contentImages": ["/images/content/"]
-        },
-        {
-          "id": 7,
-          "title": "Toytle",
-          "subtitle": "3D Printed Animal Puzzle",
-          "typeId": ["School"],
-          "image": "/images/toytle.jpg",
-          "content": "",
-          "contentImages": ["/images/content/"]
-        },
-        {
           "id": 8,
           "title": "Trebuchet",
           "subtitle": "Grade 12 Physics Project",
@@ -173,6 +155,24 @@
           "image": "/images/deck.jpg",
           "content": "",
           "contentImages": ["/images/content/deck.jpg", "/images/content/deck2.jpg", "/images/content/deck3.jpg", "/images/content/deck4.jpg", "/images/content/deck5.jpg", "/images/content/deck6.jpg"]
+        },
+        {
+          "id": 6,
+          "title": "A.R.M",
+          "subtitle": "First Year Design Project",
+          "typeId": ["School"],
+          "image": "/images/arm.jpg",
+          "content": "",
+          "contentImages": ["/images/content/"]
+        },
+        {
+          "id": 7,
+          "title": "Toytle",
+          "subtitle": "3D Printed Animal Puzzle",
+          "typeId": ["School"],
+          "image": "/images/toytle.jpg",
+          "content": "",
+          "contentImages": ["/images/content/"]
         }
       ]
     },
