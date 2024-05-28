@@ -4,7 +4,7 @@ import {
     PageHeaderText,
     PageHeaderDot,
     SubHeadingText
-} from './GlobalStyles';
+} from './globalStyles';
 
 function PageHeader({title}) {
   return (

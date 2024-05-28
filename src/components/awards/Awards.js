@@ -2,7 +2,7 @@ import React from 'react';
 import { PageHeader } from '../global/Global';
 import {
   AwardsPageContainer
-} from './AwardsStyles';
+} from './awardsStyles';
 
 function Awards({data}) {
   return (

@@ -26,8 +26,9 @@ import {
     DownloadButtonContainer,
     DownloadButtonText,
     DownloadIcon,
-    LinkContainer
-  } from './ProjectsStyles';
+    LinkContainer,
+    ModalDate
+  } from './projectsStyles';
   
 
 function Tile({data}) {
@@ -68,6 +69,9 @@ function Tile({data}) {
                     <ModalSubtitleContainer>
                         <ModalSubtitle>{data.subtitle}</ModalSubtitle>
                         <DownloadButton data={data}/> 
+                    </ModalSubtitleContainer>
+                    <ModalSubtitleContainer>
+                        <ModalDate>{data.date}</ModalDate>
                     </ModalSubtitleContainer>
                 </StyledDialogTitle>
                 <StyledDialogContent>

@@ -6,7 +6,7 @@ import {
   StyledFontAwesomeIcon,
   CopyrightLink,
   CopyrightLinkText
-} from './FooterStyles';
+} from './footerStyles';
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 

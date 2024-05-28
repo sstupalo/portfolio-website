@@ -6,7 +6,7 @@ import {
   TileContainer,
   FilterContainer,
   FilterButton
-} from './ProjectsStyles';
+} from './projectsStyles';
 
 function Projects({data}) {
   const [filtered, setFiltered] = useState([]);

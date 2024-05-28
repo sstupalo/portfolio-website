@@ -33,8 +33,8 @@ export const TileBase = styled.div`
   flex-direction: column;
   &:hover{
     cursor: pointer;
-    transform: scale(1.01);
-    filter: brightness(80%);
+    transform: scale(1.02);
+    filter: brightness(100%);
   }
 `;
 
@@ -201,6 +201,16 @@ export const ModalSubtitle = styled.h2`
     font-weight: 600;
     font-size: 14pt;
     color: #FFC9C9FF;
+    margin-top: 0%;
+    margin-bottom: 0%;
+`
+
+export const ModalDate = styled.h2`
+    font-family: 'diodrum';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12pt;
+    color: #2B2B2BFF;
     margin-top: 0%;
     margin-bottom: 0%;
 `
