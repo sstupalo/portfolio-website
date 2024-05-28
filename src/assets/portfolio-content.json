@@ -1,0 +1,229 @@
+{
+    "header":{
+      "homeText": "Home",
+      "experienceText": "Experience",
+      "projectsText": "Projects",
+      "awardsText": "Awards",
+      "homePath": "/",
+      "experiencePath": "/experience",
+      "projectsPath": "/projects",
+      "awardsPath": "/awards"
+    },
+    "home": {
+      "resumeLink": "/documents/SophieStupaloOfficialResume.pdf",
+      "emailLink": "mailto:sophie@stupalo.com",
+      "emailText": "sophie@stupalo.com",
+      "phoneLink": "tel:6476339839",
+      "phoneText": "647 633 9839",
+      "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
+      "aboutMeParagraph": "Sophie Stupalo is a Biomedical Engineering graduate from the University of Waterloo. She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.\n\nChange is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.\n\nSophie is caring, productive, decisive, and a delightful team leader and contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.\n\nSophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable mindset and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.\n\nWelcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
+      "profileImage": "/images/headshot.png"
+    },
+    "experience":{
+      "experienceList":[
+        {
+          "id": 1,
+          "company": "Trudell Medical International",
+          "position": "New Product Development Engineering Intern",
+          "dates": "Jan 2023 - Aug 2023",
+          "image": "/images/trudell.png",
+          "content": ""
+        },
+        {
+          "id": 2,
+          "company": "GoFleet / Zenduit",
+          "position": "Product Manager",
+          "dates": "May 2022 - Aug 2022",
+          "image": "/images/gofleet.png",
+          "content": "GoFleet and Zenduit are telematic solutions providers focused on optimizing fleet management which service a variety of industries. As a product manager I was in charge of numerous projects over the course of my 4-month coop term. Namely, I was responsible for the complete ownership two software products, ZenduTimeCard and Support Ticket add-in, I designed and managed the implementation of a self-serve model for our ZenduWork software, I developed user journeys for a new marketplace application, and I worked one-on-one with designers and developers to create and deploy multiple new websites and landing pages.\n\nZenduTimeCard is a time-tracking software that harnesses location tracking to automatically log employees’ hours and can be easily integrated with existing company payroll systems to make payroll more efficient and less error prone for HR administrators. Support Ticket add-in provides a comprehensive dashboard where administrators can submit and monitor the status of their company’s service requests. “Complete ownership” of each product meant that I was responsible for identifying and logging bugs, working with users to determine pain points, designing new features to tackle those pain points, writing structured development tickets, managing the priority of tickets, and finally, creating written and video documentation to describe how to use the tool and its new features.\n\nDesigning the ZenduWork self-serve model involved creating a thorough user journey that described the steps a user would take to create an account, learn the main features of the tool, and begin using the tool to manage their fleet’s work orders. Next, I worked with a designer to create cohesive and intuitive screens for each step of the process, transcribed welcome emails and steps for the onboarding tutorial, and monitored the initial development of this project.\n\nMy main learning outcomes from this position were how to create effective user journeys, how to manage myself and projects using modular ToDo lists, and how to communicate the progress of different projects with stakeholders."
+        },
+        {
+          "id": 3,
+          "company": "Christie Digital Systems",
+          "position": "Agile Software Developer",
+          "dates": "Sept 2021 - Dec 2021",
+          "image": "/images/christie.png",
+          "content": "Christie is a global audio-visual solutions company whose goal is to inspire audiences through exceptional experiences powered by their AV solutions and display products. As an agile software developer, I contributed to both the Mystique and Mystique Design Web (MDW) products while participating in regular agile sprint related meetings.\n\nThe Mystique software is an automated camera-based alignment and recalibration solution that streamlines the installation, alignment, calibration, and maintenance processes of multi-projection systems.\n\nMDW is a web application that allows users to simulate multi-projection setups and test the efficacy of the Mystique software prior to the final installation. My main term project involved developing the ability to simulate colour divergence and chromatic aberration within MDW. This full stack development used ReactJS to add UI inputs which allowed a user to select the translation, rotation, or scale of the red, green, or blue pixels of each projector. C++, CUDA, and OpenGL shaders were used to define the backend logic of each transformation and display where the transformed pixels would land on the screen.\n\nIn addition to my term project, I regularly completed bug fixes as they arose or were assigned to me."
+        },
+        {
+          "id": 4,
+          "company": "University of Waterloo",
+          "position": "Developer Research Assitant",
+          "dates": "Jan 2021 - Apr 2021",
+          "image": "/images/uwaterloo.png",
+          "content": "The Department of Management Sciences at the University of Waterloo recognized the need for a replacement data visualization tool to aid with their accreditation processes. As a developer research assistant supervised by Dr. Mehrdad Pirnia, I developed an R Shiny web app which helped the department consolidate all of their student data while generating specific tables and graphs for their CEAB outcomes-based assessment report. The visualisation tool was deployed on a remote Shiny Server running an Ubuntu operating system with an ODBC connection to a central MySQL database. Although I worked independently on this project, I took an agile approach to the engineering design process which involved weekly follow up meetings with Dr. Pirnia (the primary user) to discuss new features or requirements."
+        },
+        {
+          "id": 5,
+          "company": "Gumstix Research Canada",
+          "position": "Platform Developer Intern",
+          "dates": "May 2020 - Aug 2020",
+          "image": "/images/gumstix.png",
+          "content": "Gumstix is an online marketplace for customizable embedded electronic hardware. During my term as a platform developer intern, I contributed to the development of hardware-specific embedded Linux distributions for custom PCB assemblies using Yocto. During the learning stage of my term, I had the task of diagnosing Gumstix images that were not executing properly by investigating the Linux file system and presenting possible solutions. This helped me to familiarize myself with the hardware I would continue to use throughout my term.\n\nLater I was responsible for updating all of the Gumstix meta layers and Yocto manifest to be compatible with Dunfell (the latest release of Yocto). While completing this task I learned how to configure PCB assemblies by modifying Device Tree Source files using overlays and parameters (pin multiplexing) to change the physical behaviour of targeted GPIOs.\n\nNear the end of my term I was tasked with enabling automatic detection and setup for two different Bluetooth/WiFi chip configurations. This involved writing Yocto recipes to install a module, initialisation tool, service, and udev rule file on the custom images. This was one of my most challenging work terms as I had to learn how to work with Linux, Yocto, and various hardware to be successful while working entirely remotely due to COVID-19. Despite the challenges, this term taught me resilience, resourcefulness, and when to ask for help."
+        },
+        {
+          "id": 6,
+          "company": "Treetop Trekking",
+          "position": "Aerial Guide",
+          "dates": "Mar 2019 - Mar 2020",
+          "image": "/images/treetoptrekking.png",
+          "content": "Treetop Trekking Brampton is an aerial park in the Heart Lake Conservation Area. In the aerial guide role, I was responsible for conducting orientations, interacting with customers, supervising aerial park courses to ensure patron safety, conducting daily course and equipment safety inspections, and experiencing patience while working with large school and camp groups."
+        },
+        {
+          "id": 7,
+          "company": "City of Brampton",
+          "position": "Lifeguard & Swim Instructor",
+          "dates": "Sep 2017 - Aug 2019",
+          "image": "/images/brampton.png",
+          "content": "Throughout high school, I worked part-time as a lifeguard and swim instruct for the City of Brampton. Both roles required me to maintain all of the relevant physical and lifesaving qualifications. Teaching swimming lessons involved demonstrating and evaluating skills, communicating students’ progress with their parents/guardians, and most importantly keeping every student informed and safe at all times. On select weekends I also assisted with teaching advanced lifesaving courses including Bronze Cross and Standard First Aid."
+        },
+        {
+          "id": 8,
+          "company": "Wet'n'Wild Toronto",
+          "position": "Lifeguard",
+          "dates": "Apr 2017 - Sep 2017",
+          "image": "/images/wetnwild.png",
+          "content": "Wet‘n’Wild Toronto is a waterpark and where I got my first paid job. As a lifeguard, I worked with various lifeguarding teams supervising swimmers. Due to the popular/busy nature of the park, I ended up leading 11 successful rescues and acted as a supporting guard during countless other rescues."
+        }
+      ]
+    },
+    "projects":{
+      "projectList":[
+        {
+          "id": 1,
+          "title": "Lacrosse Club",
+          "subtitle": "University Athletics Club",
+          "date": "2019 - 2024",
+          "typeId": ["Personal"],
+          "image": "/images/lacrosse.jpg",
+          "content": "My decision to study at the University of Waterloo (UW) was a difficult one as it meant I would have to give up playing the sport of lacrosse. Instead of giving up the sport I loved, I founded a women’s lacrosse club at my school with the goal of one day developing into a competitive OUA varsity team. This project began in the fall of 2019 and has since developed into a co-ed club.\n\nDuring the summer prior to attending my first year I got started on this endeavor, collecting donated equipment, reaching out to UW athletics, advertising though the Ontario Lacrosse Association and navigating the club establishment process. In the fall I attended the Warriors Athletic Club fair to showcase our club and advertise our try-it sessions which proved to be a huge success.  By the end of our first term our club had 20 registered participants.  The restrictions due to the COVID pandemic made it more difficult for people to join our practices but participants’ continued engagement and interest have kept the club alive.\n\nNot every sports team I have participated on in the past has been as welcoming as it should have been so when creating my club’s constitution, I made sure to focus on developing policies to foster a positive and friendly environment.  I also decided to continue running a club team even after a varsity team has been established so that other students who join the club can enjoy the same benefits in a less competitive and demanding environment. Our club is also working with the UW Alliance, and the Black Liberated Athletes Coalition to ensure we are taking all steps necessary to truly embrace diversity and welcome everyone who may be interested in playing lacrosse. Since our club was built on the values of equity and inclusiveness, we work hard to balance our membership fees so that it is not a limiting factor for who can play in our club while also maximizing our revenue so that we can provide a stick for any player that does not already have one.\n\nNow I currently hold the position of President of the UW Field Lacrosse club team. In this role, I am responsible for chairing weekly executive meetings to plan future club initiatives as well as creating and executing 2 practice plans each week. One of the biggest challenges I’ve faced has been acquiring borrowed or cheap equipment since lacrosse is not a common sport. What I have learned is that good things come to those who seek them, and it was a matter of reaching out the right people to solve my problem. Not being afraid to ask for favors from the community has provided our club with over 60 sticks, 3 nets, and lots of lacrosse balls.\n\nThe success of the club so far has been extremely rewarding and I am excited at the prospect of reaching our club’s goal of becoming a competitive team prior to my graduation in 2024.",
+          "contentImages": ["/images/content/lax1.jpg", "/images/content/lax2.jpg", "/images/content/lax3.jpg", "/images/content/lax4.jpg", "/images/content/lax5.jpg", "/images/content/lax6.jpg", "/images/content/lax7.jpg", "/images/content/lax8.jpg", "/images/content/lax9.jpg", "/images/content/lax10.jpg", "/images/content/lax11.jpg", "/images/content/lax12.jpg"]
+        },
+        {
+          "id": 11,
+          "title": "PressurePro",
+          "subtitle": "Fourth Year Design Project",
+          "date": "2022 - 2024",
+          "typeId": ["School"],
+          "image": "/images/capstone.jpg",
+          "content": "",
+          "contentImages": ["/images/content/capstone.jpg", "/images/content/capstone2.jpg"]
+        },
+        {
+          "id": 2,
+          "title": "Portfolio Website",
+          "subtitle": "Personal ReactJS Project",
+          "date": "2023",
+          "typeId": ["Personal"],
+          "image": "/images/website.png",
+          "content": "Over 10 years ago, my dad purchased the stupalo.com domain with the hopes that one day either my brother or I would need it. Finally, during my previous summer co-op term in 2022 I had the time to design and develop this personal portfolio website. I first attempted this task in 2020 using Webflow, however, I was not happy with the initial design that I created, and I felt that I was missing out on the opportunity to learn how to develop a website from scratch. Revisiting this project in 2022, I decided to take a different approach. Instead, I broke this project down into 4 main stages: (1) designing the screens and their relationships, (2) implementing each screen using ReactJS, (3) creating written and visual content for each section, and (4) deploying the completed website.\n\nI first taught myself the basics of Figma using the documentation and YouTube. I browsed the internet for inspiration and created a simple black and white wireframe of each screen first. Once I was happy with the layout of information, I then added colour, icons, and fonts to make the design more cohesive and visually pleasing. I asked a few of my friends and family for feedback on my designs before proceeding to the next step.\n\nFollowing the completion of the screen designs and their relationships, I began teaching myself about ReactJS. I completed a tutorial provided by Codecademy to get a basic understanding of the framework. I then watched hours of YouTube tutorials before writing a single line of code to get a feel for how other developers organized their files systems, what tools they frequently used, and what advise they would give to beginner developers. Knowing the benefits of version control I decided to create a new GitHub repository to develop my website in. I then followed the React docs to create a template react app. I decided to use styled-components instead of the traditional className styling approach since styled components can be more easily reused across an entire project. I noticed the first step to every website was creating navbar. For this, I followed a YouTube tutorial step by step and then played around with the template code to replicate my custom styles and functionality. Since my website is a single page application, I decided to use React Router to handle routes. After creating the navbar component I had a clear understanding of React and easily created the home page, experience page, projects page, and footer components.\n\nAfter the bones of the website were established, it was time to create all of the content that would be filling in the lorem ipsum filler text and images I had put while in the development stage. I tracked down all the photos that I could find that would best represent the projects I wanted to showcase. I also created writeups for my “About” section, each of my work experiences, and each project. All of this content including paths to images are all stored within a single JSON file so that if I wanted to add new content or change the existing content, it could all be done from one place without modifying any code.\n\nAt this point, I was extremely proud of my website, and I was ready to show it off to whoever was lucky enough to land on stupalo.com. The last step I had to do was deploy my website. I am the biggest fan of doing things for free whenever possible which lead me to using GitHub Pages to deploy my website. After following the GitHub Pages docs and receiving excellent customer support from BareMetal, my website was finally live at stupalo.com!",
+          "contentImages": ["/images/content/website2.png", "/images/content/website.png", "/images/content/website4.png", "/images/content/website3.png"]
+        },
+        {
+          "id": 12,
+          "title": "Knitted Knockers",
+          "subtitle": "Handmade Breast Prostheses",
+          "date": "2023 - 2024",
+          "typeId": ["Personal"],
+          "image": "/images/knittedknockers.jpg",
+          "content": "",
+          "contentImages": ["/images/content/knocker7.jpg", "/images/content/knocker1.jpg", "/images/content/knocker9.jpg", "/images/content/knocker8.jpg", "/images/content/knocker6.jpg", "/images/content/knocker5.jpg", "/images/content/knocker2.jpg", "/images/content/knocker4.jpg", "/images/content/knocker3.jpg"]
+        },
+        {
+          "id": 13,
+          "title": "Ultrasound Device",
+          "subtitle": "Medical Imaging Design Project",
+          "date": "2022",
+          "typeId": ["School"],
+          "image": "/images/ultrasound.png",
+          "content": "",
+          "contentImages": ["/images/content/"]
+        },
+        {
+          "id": 3,
+          "title": "Deadlift Analysis",
+          "subtitle": "MOCAP Research Project",
+          "date": "2022",
+          "typeId": ["School"],
+          "image": "/images/mocap.png",
+          "content": "In my 3A term (Winter 2021) I took BME 588 – Special Topics in Biomechanics with a focus on Computational Biomechanics. Part of this course involved completing a biomechanical research project of choice. Since my partner and I had an interest in powerlifting and had often heard the claim that the rewards of deadlifts (one of the “big 3” lifts) were not worth the risks involved in the movement, we wanted to focus our research on proving whether or not this claim was true. Since our course had a significant focus on the OpenSim software, the objective of our study was to generate and validate two deadlifting motions (proper and improper form) in OpenSim with the purpose of contributing to combating this potential spread of misinformation in the powerlifting community.\n\nThe first step of this process involved collecting motion capture (MOCAP) data. Due to the multi-dimensional nature of human movement, this was accomplished using two different MOCAP techniques at once. The MOCAP setup involved two laptop cameras: one camera filming the anterior (front) view and one filming the right lateral (side) view of the deadlift subject. One of the two MOCAP techniques used was the MediaPipe Pose machine learning algorithm, which uses markerless pose tracking and background segmentation masking to infer the 3D location of 33 body landmarks. Note that none of these 33 landmarks were located along the spinal cord, therefore a second MOCAP technique was necessary to analyze spine curvature. The second MOCAP technique used a custom colour isolating algorithm which filtered by hue and saturation to isolate for the bright green markers which were glued onto our subject’s back. Before each deadlift recording was taken, the lights were flickered in order to sync the timing of each camera’s footage. We combined these datasets into the coordinate frame used by OpenSim by performing matrix transformations.\n\nOnce the MOCAP was finished we needed to translate our data from tables to a motion in OpenSim. This involved downloading the open source Full-Body Lifting model from SimTK, scaling the model based on our subject’s parameters, and placing markers on the model that coincided with each marker used during the data collection process. Once the markers were placed, we imported the MOCAP data as a motion file and ran an inverse kinematics simulation to visualise the motion of each subject. These models were then validated, and it was concluded that both motions were successfully created but with a degree of accuracy unsuitable for use in further research.\n\nI did not go into detail about it here, but we failed more times than we succeeded during this project and every small step forward became something to celebrate. Although this project was not successful, more than anything it taught me how to be resilient and how to work with any situation as grim as it may seem in the moment. Now it is easy to reflect and be extremely proud of what was accomplished during this project since we learned every technique and tool that we used in the moment while balancing the workload of 5 other courses.",
+          "contentImages": ["/images/content/markers.png", "/images/content/mocapSetup.png", "/images/content/matlab.png", "/images/content/scaling.png"],
+          "document": "/documents/BME588ProjectFinalReportCourchesneStupalo.pdf"
+        },
+        {
+          "id": 4,
+          "title": "Physiological Modelling",
+          "subtitle": "Optimizing FES Parameters",
+          "date": "2022",
+          "typeId": ["School"],
+          "image": "/images/modelling.png",
+          "content": "In my 3A term (winter 2021) I took BME 355 – Physiological Systems Modelling. The term project for this course involved developing a model to determine optimal parameters (amplitude and frequency) for functional electrical stimulation (FES). Currently, FES is one of the most effective treatments of footdrop; an issue that occurs when an individual’s tibialis anterior (shin) muscle does not work properly, and they can no longer lift their toes while they walk. As described by its name, an FES device periodically stimulates the patient’s tibialis anterior muscle using small controlled electrical signals. Although this is the preferred treatment by patients, one of its main drawbacks is that it overstimulates the targeted muscles and quickly fatigues the muscle. The parameters of focus for this project were signal frequency and amplitude. The goal of this project was to determine the optimal parameters for FES. Optimal parameters would successfully reduce muscle fatigue caused by FES while lifting the foot sufficiently off the ground to prevent foot drop.\n\nWe achieved our goal by creating a simplified model of the leg, shank, and foot which was fixed at the hip but free to rotate at the knee and ankle joints. Using that model and first principles, we then created state-space equations to describe our system. With MATLAB, these equations allowed us to quantitatively evaluate the relationship between the height of the foot off the ground and the frequency or amplitude of the input signal. An exhaustive search determined that the optimal frequency and amplitude to be 50Hz and 2.177V, respectively. We then ran a final simulation to verify that these values for amplitude and frequency produced realistic foot and ankle behaviour and ensured that both the front and back of the foot cleared the ground, preventing foot drop.\n\nMy main contributions to this project involved generating the models for our simulations, managing our team, creating our final presentation, and performing the optimization of the FES parameters of interest. Throughout the whole project I acted as the project manager and facilitated communication across our various sub teams. My efforts to thoroughly understand our model and simulations allowed me to keep my other group members informed. I also challenged our approach to ensure we were not making any irrational assumptions. My contributions kept the team on track and allowed us to successfully determine optimal FES parameters through modelling and simulation.",
+          "contentImages": ["/images/content/modelling.png", "/images/content/optimization3.png", "/images/content/optimization2.png", "/images/content/bodyAngles.png", "/images/content/footHeight.png", "/images/content/muscleActivation.png"],
+          "document": "/documents/BME355FinalReportGroup3.pdf"
+        },
+        {
+          "id": 10,
+          "title": "Waterfall Coffee Table",
+          "subtitle": "Woodworking",
+          "date": "2022",
+          "typeId": ["Personal"],
+          "image": "/images/woodworking.jpg",
+          "content": "During my summer co-op term of 2022, I was fortunate to be living where I had access to a woodshop. Inspired by many of my boyfriend’s projects, I decided that I wanted to collaborate with him to create a waterfall coffee table. We had previously seen this type of table in a jewelry shop and thought this project would be a great use for our leftover live edge walnut board while expanding our woodworking skills.\n\nWe started by designing our table using pen and paper to make sure that using 18’’ hairpin legs would still leave enough material to have at least a 3’ table surface. Next, we measured 18’’ from one end of the plank and cut it on a 45-degree angle with a mitre saw to create the waterfall leg of the table. The type of cut was repeated twice on the remaining plank to create a mitre joint where the wood grain of the table surface seamlessly continued into the leg of the table. Once both planks were cut, we used walnut wood filler to fix any gouges and cracks in the wood. We then sanded each piece with 50, 100, 150, and 200 grit sandpaper to remove surface imperfections and make them smooth to the touch. Our next step involved gluing the two pieces together with wood glue. Although we had corner clamps, we decided not to use them since they would likely rip of the bark from the edges of the boards. Instead, we created a rig out of spare wood that allowed us to clamp the boards together at a 90-degree angle without damaging the bark. After the glue dried, we sanded each board again to remove any glue residue. We used tack cloths and pressurized air to remove all of the dust before applying multiple coats of polyurethane water-based wood finish to each surface and bark of the table. Once all the final coat of finish dried, we attached the hairpin legs and two L brackets to the underside of the table.\n\nSeeing the finished product of this table was extremely rewarding and I felt I learned a number of new skills throughout the process.",
+          "contentImages": ["/images/content/wood1.jpg", "/images/content/wood2.jpg", "/images/content/wood5.jpg", "/images/content/wood3.jpg", "/images/content/wood4.jpg", "/images/content/wood6.jpg", "/images/content/wood7.jpg"]
+        },
+        {
+          "id": 14,
+          "title": "Crocheted Blanket",
+          "subtitle": "Handmade Gift",
+          "date": "2023",
+          "typeId": ["Personal"],
+          "image": "/images/blanket.jpg",
+          "content": "",
+          "contentImages": ["/images/content/wood1.jpg"]
+        },
+        {
+          "id": 5,
+          "title": "Upright",
+          "subtitle": "Peripheral Neuropathy Solution",
+          "date": "2021",
+          "typeId": ["School"],
+          "image": "/images/upright.png",
+          "content": "During my 2B term, I took a course called Prototyping, Simulation and Design (BME 261). In this course my group and I were tasked with designing and creating a prototype solution for peripheral neuropathy patients. In short, peripheral neuropathy is a neurodegenerative disease that causes patients to experience tingling, pain, or even loss of sensation in their hands or feet. The focus of our project was to create a device that would prevent falls in peripheral neuropathy patients. Our team came up with a sock solution which would record pressure at the foot and relay that information through haptic feedback to the knee area or higher depending on patient need.\n\nFor this project our group divided ourselves into two sub teams: technical report writing and prototyping. I acted as a lead on the prototyping team which involved designing circuits, conducting verification testing, programming the Arduino Uno, 3D modelling and printing the protective case, and constructing and soldering of the final prototype. Since the main component of our project was an Arduino Uno, we used Fritzing to design the circuits on a breadboard. Before we could assemble our circuits, we needed to determine which secondary resistor should be used in a voltage divider with the resistance sensors that would be in the insole of the design. To do this we constructed a simple voltage divider where we could easily change the secondary resistance value and the output voltage could be read by the Arduino Uno. We then conducted 3 trials for each resistance value with the pressure sensor placed at each section of the foot. Our subject would walk over the insole, and we recorded the range of each resistor. We then selected the resistor that provided the larges sensing range based on the specific pressure at each foot landmark. To protect the soldered circuitry, I 3D modelled a protective case for the Arduino Uno that also held the 9V battery in OnShape. We then 3D printed this case which allowed our final prototype to be safely wearable. The final steps of the project involved soldering all of the components together and connecting them to the final sock prototype. Not only was this project a fun design challenge, but it also gave me a lot of hands-on experience carrying out a project from start to finish.",
+          "contentImages": ["/images/content/upright2.png", "/images/content/upright1.png", "/images/content/upright.png", "/images/content/upright4.png", "/images/content/upright3.png", "/images/content/upright5.png", "/images/content/upright6.png"],
+          "document": "/documents/BME261ProjectFinalReport.pdf"
+        },
+        {
+          "id": 8,
+          "title": "Trebuchet",
+          "subtitle": "Grade 12 Physics Project",
+          "date": "2019",
+          "typeId": ["School"],
+          "image": "/images/trebuchet.png",
+          "content": "",
+          "contentImages": ["/images/content/treb10.png", "/images/content/treb9.png", "/images/content/treb1.jpg", "/images/content/treb2.png", "/images/content/trebuchet.png", "/images/content/treb3.png", "/images/content/treb4.png", "/images/content/treb5.png", "/images/content/treb6.png", "/images/content/treb7.jpg"]
+        },
+        {
+          "id": 9,
+          "title": "Deck",
+          "subtitle": "Family Project",
+          "date": "2013 - 2016",
+          "typeId": ["Personal"],
+          "image": "/images/deck.jpg",
+          "content": "It seems that projects at home are never ending, especially at our house. One summer, our family decided it was time to upgrade our 25-year-old deck from an old splintered pressure treated embarrassment to a composite home enhancing beauty. Our family collaborated on a designing a warm and inviting back yard deck that featured plenty of seating, dining and lounging space for large family gatherings and intimate get-togethers. The design featured a spacious dining area on one side, a Muskoka inspired fireplace on the other, and an open space in the middle for additional creative use. This was all captured on an AutoCAD layout, to ensure that the design would be accurate.\n\nConstruction started with tearing out the old deck. We dug in quickly to regrade the property around the deck to ensure proper drainage. Ten-inch concrete piles were professionally installed based on our drawings and specifications. We then installed the pressure treated frame using 2x12 beams and 2x10 joists at 12” centres. The heavy under construction was necessary as the composite decking is nice to look at but not strong, so it required a lot of support.\n\nThe boards were carefully placed with laser alignment to the house. Each board was precisely cut with our custom designed “finger safe” powered mitre saw. The main frame was assembled with countless framing brackets, nails, and screws to allow for the low-profile design. The framing was cantilevered to hide all of the concrete piles to leave a clean finish all around. The four bench seats were then further cantilevered beyond the edge of the deck for an interesting visual effect.\n\nThe frame was then clad in the composite deck boards diagonally and in a herringbone pattern. All of the deck boards and the fascia boards were fastened using hidden hardware. The result is a striking smooth surface that has exposed screw heads.\n\nTo make things just a little harder on ourselves, the deck also features built in LED step lighting and 120VAC outlets under each bench.\n\nThe end product is stunning and has received countless complements from all of our guests leaving me with a great sense of pride. I am grateful to have had the opportunity to work with my family on this two year long project. I am also glad to report that the project was injury free.",
+          "contentImages": ["/images/content/deck5.jpg", "/images/content/deck6.jpg", "/images/content/deck7.png", "/images/content/deck2.jpg", "/images/content/deck3.jpg", "/images/content/deck4.jpg", "/images/content/deck8.jpg", "/images/content/deck9.jpg", "/images/content/deck.jpg"]
+        }
+      ]
+    },
+    "awards":{
+
+    },
+    "footer":{
+      "text": "Sophie Stupalo 2022",
+      "linkText": "CC BY-SA 4.0",
+      "copyrightUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "linkedinUrl": "https://www.linkedin.com/in/sophie-stupalo-2380a3194/",
+      "githubUrl": "https://github.com/sstupalo",
+      "envelopeUrl": "mailto:sophie@stupalo.com",
+      "phoneUrl": "tel:6476339839"
+    }
+  }

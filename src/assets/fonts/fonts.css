@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'captura';
+    src: url('./CapturaRegular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'carniola';
+    src: url('./Carniola.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diodrum';
+    src: url('./Diodrum-Semibold.ttf') format('ttf'),
+    url('./Diodrum-Semibold.woff') format('woff'),
+    url('./Diodrum-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
