@@ -130,7 +130,7 @@ export const AboutMeParagraph = styled.p`
 export const ProfilePictureContainer = styled.div`
   display: flex;
   width: 100%;
-  background-color: #2B2B2BFF;
+  background-color: #FFC9C9FF;
 `
 
 export const ProfilePicture = styled.img`
