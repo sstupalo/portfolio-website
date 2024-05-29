@@ -196,7 +196,7 @@ export const ModalTopContainer = styled.div`
 `
 
 export const ModalSubtitle = styled.h2`
-    font-family: 'diodrum';
+    font-family: 'captura';
     font-style: normal;
     font-weight: 600;
     font-size: 14pt;
@@ -206,7 +206,7 @@ export const ModalSubtitle = styled.h2`
 `
 
 export const ModalDate = styled.h2`
-    font-family: 'diodrum';
+    font-family: 'captura';
     font-style: normal;
     font-weight: 600;
     font-size: 12pt;

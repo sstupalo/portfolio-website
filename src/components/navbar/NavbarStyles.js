@@ -58,7 +58,7 @@ export const NavbarLink = styled(NavLink)`
     transform: scale(1.1);
   }
   &.active {
-    color: #FFC9C9FF;
+    color: #2B2B2BFF;
   }
 `;
 
