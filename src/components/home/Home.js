@@ -28,7 +28,7 @@ function Home({data}) {
       <PageHeader title='Sophie Stupalo'/>
       <ContentContainer> 
         <LeftContainer>
-          <TopContentContainer>
+          {/* <TopContentContainer>
             <DetailsContainer> 
               <SubHeading title='Contact Details'/>
               <LinkContainer href={data.phoneLink}>
@@ -44,13 +44,13 @@ function Home({data}) {
                 <GradCapIcon icon={faGraduationCap}/><ButtonText>University of Waterloo<br />3B Biomedical Engineering</ButtonText>
               </LinkContainer>
             </DetailsContainer>
-          </TopContentContainer>
-          <LinkContainer href={data.resumeLink} download>
+          </TopContentContainer> */}
+          {/* <LinkContainer href={data.resumeLink} download>
             <DownloadButton> 
               <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Resume</DownloadButtonText>
             </DownloadButton>
-          </LinkContainer>
-          <SubHeading title='About'/>
+          </LinkContainer> */}
+          <SubHeading title='Welcome to my website!'/>
           <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>

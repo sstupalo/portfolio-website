@@ -1,13 +1,17 @@
 {
     "header":{
       "homeText": "Home",
+      "aboutText": "About",
       "experienceText": "Experience",
       "projectsText": "Projects",
       "awardsText": "Awards",
+      "contactText": "Contact",
       "homePath": "/",
+      "aboutPath": "/about",
       "experiencePath": "/experience",
       "projectsPath": "/projects",
-      "awardsPath": "/awards"
+      "awardsPath": "/awards",
+      "contactPath": "/contact"
     },
     "home": {
       "resumeLink": "/documents/SophieStupaloOfficialResume.pdf",
@@ -16,7 +20,7 @@
       "phoneLink": "tel:6476339839",
       "phoneText": "647 633 9839",
       "educationLink": "https://uwaterloo.ca/biomedical-engineering/?utm_source=uwaterloo.ca%2Fengineering&utm_medium=site&utm_campaign=analytics",
-      "aboutMeParagraph": "Sophie Stupalo is a Biomedical Engineering graduate from the University of Waterloo. She exhibits acute awareness of the existing and growing inequities deeply rooted in our current social constructs.  Sophie believes that these inequities must be addressed actively by developing and sharing technology that both meets the needs of today’s diverse and evolving society while sustainably addressing climate challenges.  She simply believes that inaction is socially inexcusable and morally unforgivable.\n\nChange is coming, and Sophie is confident in her ability to lead the way.  She feels responsible and inspired to add value and social good through her work.  She spreads enthusiasm amongst her friends and colleagues that share common values, and warmly connects with individuals that differ.\n\nSophie is caring, productive, decisive, and a delightful team leader and contributor.  With almost a decade of work experience, Sophie has proven herself as a leader who exhibits focus, determination and sheer will to drive initiatives from start to finish.\n\nSophie is looking forward to developing biotechnology that is socially equitable and considerate of our shared environment.  Her interests are in design, medicine, and entrepreneurship.  She is ready, with a sustainable mindset and her attention to detail, to tackle the evolving challenges of global resource scarcity, climate change and sustainability.\n\nWelcome, keep exploring, maybe you'll find something inspiring and if you have any questions please reach out.",
+      "aboutMeParagraph": "",
       "profileImage": "/images/headshot.png"
     },
     "experience":{
@@ -27,7 +31,7 @@
           "position": "New Product Development Engineering Intern",
           "dates": "Jan 2023 - Aug 2023",
           "image": "/images/trudell.png",
-          "content": ""
+          "content": "COMING SOON!"
         },
         {
           "id": 2,
@@ -218,7 +222,7 @@
 
     },
     "footer":{
-      "text": "Sophie Stupalo 2022",
+      "text": "Sophie Stupalo 2024",
       "linkText": "CC BY-SA 4.0",
       "copyrightUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "linkedinUrl": "https://www.linkedin.com/in/sophie-stupalo-2380a3194/",

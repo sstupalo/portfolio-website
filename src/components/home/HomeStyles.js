@@ -130,12 +130,12 @@ export const AboutMeParagraph = styled.p`
 export const ProfilePictureContainer = styled.div`
   display: flex;
   width: 100%;
-  background-color: #FFC9C9FF;
+  background-color: #747474FF;
 `
 
 export const ProfilePicture = styled.img`
-  width: 96%;
-  max-width: 96%;
+  width: 99%;
+  max-width: 99%;
   height: auto;
-  padding: 2%;
+  padding: 0.5%;
 `
