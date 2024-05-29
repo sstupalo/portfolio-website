@@ -13,7 +13,7 @@ import {
   CarouselItemContainer,
   PositionContainer,
   GroupContainer
-} from './ExperienceStyles';
+} from './experienceStyles';
 import { 
   Timeline,
   TimelineItem,
