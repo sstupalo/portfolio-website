@@ -73,6 +73,9 @@ function Tile({data}) {
                     <ModalSubtitleContainer>
                         <ModalDate>{data.date}</ModalDate>
                     </ModalSubtitleContainer>
+                    <ModalSubtitleContainer>
+                        <ModalDate>{data.date}</ModalDate>
+                    </ModalSubtitleContainer>
                 </StyledDialogTitle>
                 <StyledDialogContent>
                 <StyledDialogContentText>{data.content}</StyledDialogContentText>
