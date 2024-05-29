@@ -1,13 +1,17 @@
 {
     "header":{
       "homeText": "Home",
+      "aboutText": "About",
       "experienceText": "Experience",
       "projectsText": "Projects",
       "awardsText": "Awards",
+      "contactText": "Contact",
       "homePath": "/",
+      "aboutPath": "/about",
       "experiencePath": "/experience",
       "projectsPath": "/projects",
-      "awardsPath": "/awards"
+      "awardsPath": "/awards",
+      "contactPath": "/contact"
     },
     "home": {
       "resumeLink": "/documents/SophieStupaloOfficialResume.pdf",
@@ -218,7 +222,7 @@
 
     },
     "footer":{
-      "text": "Sophie Stupalo 2022",
+      "text": "Sophie Stupalo 2024",
       "linkText": "CC BY-SA 4.0",
       "copyrightUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "linkedinUrl": "https://www.linkedin.com/in/sophie-stupalo-2380a3194/",

@@ -28,10 +28,11 @@ function Navbar({data}) {
         <RightContainer>
           <NavbarLinkContainer>
             <NavbarLinkContainerDesktop> 
-              <NavbarLink to={data.homePath}> {data.homeText}</NavbarLink>
+              <NavbarLink to={data.aboutPath}> {data.aboutText}</NavbarLink>
               <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
               <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
               <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink>
+              <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink>
             </NavbarLinkContainerDesktop>
             <OpenLinksButton
               onClick={() => {
@@ -49,10 +50,11 @@ function Navbar({data}) {
             setExtendNavbar((curr) => !curr);
           }}
         >
-          <NavbarLink to={data.homePath}> {data.homeText}</NavbarLink>
+          <NavbarLink to={data.aboutPath}> {data.aboutText}</NavbarLink>
           <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
           <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
           <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink>
+          <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
