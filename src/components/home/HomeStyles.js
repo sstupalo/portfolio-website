@@ -103,7 +103,7 @@ export const LinkContainer = styled.a`
 
 export const ButtonText = styled.text`
   font-size: 20pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -116,7 +116,7 @@ export const DownloadButtonText = styled(ButtonText)`
 
 export const AboutMeParagraph = styled.p`
   font-size: 17pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;

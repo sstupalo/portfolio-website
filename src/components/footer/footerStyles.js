@@ -41,7 +41,7 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
 `
 export const CopyrightLink = styled.a`
   font-size: 12pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   color: #2B2B2BFF;
@@ -49,7 +49,7 @@ export const CopyrightLink = styled.a`
 
 export const CopyrightLinkText = styled.text`
   font-size: 12pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;

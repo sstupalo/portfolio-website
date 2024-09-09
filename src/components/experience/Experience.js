@@ -57,49 +57,30 @@ function Experience({data}) {
       <ExperiencePageContainer>
         <PageHeader title="Experience"/>
         <Timeline> 
-          {data.experienceList.map((experience) => {
-              if (7 === experience.id) {
-                return (
-                  <TimelineItem>
-                    <TimelineOppositeContent sx={{ flex: 0.35 }}>
-                      <CompanyText>{experience.company}</CompanyText>
-                      <PositionText>{experience.position}</PositionText>
-                      <DateText>{experience.dates}</DateText>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <CompanyImage src={experience.image}/>
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <ContentContainer>
-                        <ContentText>{experience.content}</ContentText>
-                      </ContentContainer>
-                    </TimelineContent>           
-                  </TimelineItem>
-                );
-              } else {
-                return (
-                  <TimelineItem>
-                    <TimelineOppositeContent sx={{ flex: 0.35 }}>
-                      <CompanyText>{experience.company}</CompanyText>
-                      <PositionText>{experience.position}</PositionText>
-                      <DateText>{experience.dates}</DateText>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <CompanyImage src={experience.image}/>
-                      <TimelineConnector
-                        sx={{
-                          backgroundColor: "#747474BFF",
-                        }}
-                      />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <ContentContainer>
-                        <ContentText>{experience.content}</ContentText>
-                      </ContentContainer>
-                    </TimelineContent>           
-                  </TimelineItem>
-                );
-              }
+          {data.experienceList.map((experience, index) => {
+            return (
+              <TimelineItem>
+                <TimelineOppositeContent sx={{ flex: 0.35 }}>
+                  <CompanyText>{experience.company}</CompanyText>
+                  <PositionText>{experience.position}</PositionText>
+                  <DateText>{experience.dates}</DateText>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <CompanyImage src={experience.image}/>
+                  {index !== data.experienceList.length - 1 && 
+                    <TimelineConnector
+                      sx={{
+                        backgroundColor: "#747474BFF",
+                      }}
+                  />}
+                </TimelineSeparator>
+                <TimelineContent sx={{ pb: 5 }}>
+                  <ContentContainer>
+                    <ContentText>{experience.content}</ContentText>
+                  </ContentContainer>
+                </TimelineContent>           
+              </TimelineItem>
+            );
           })}
         </Timeline>
       </ExperiencePageContainer> 

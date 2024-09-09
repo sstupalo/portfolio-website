@@ -17,10 +17,10 @@
 }
 
 @font-face {
-    font-family: 'carniola';
-    src: url('./Carniola.ttf') format('ttf'),
-    url('./Carniola.woff') format('woff'),
-    url('./Carniola.woff2') format('woff2');
+    font-family: 'lato';
+    src: url('./LatoLatin-Regular.ttf') format('ttf'),
+    url('./LatoLatin-Regular.woff') format('woff'),
+    url('./LatoLatin-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }

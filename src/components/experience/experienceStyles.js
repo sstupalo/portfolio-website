@@ -78,7 +78,7 @@ export const DateText = styled.h3`
 
 export const ContentText = styled.p`
   color: #2B2B2BFF;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14pt;

@@ -53,7 +53,7 @@ export const ProjectTitle = styled.h1`
 
 export const ProjectSubtitle = styled.h1`
   font-size: 14pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -256,7 +256,7 @@ export const LinkContainer = styled.a`
 export const DownloadButtonText = styled.text`
   color: #FFC9C9FF;
   font-size: 14pt;
-  font-family: 'carniola';
+  font-family: 'lato';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
