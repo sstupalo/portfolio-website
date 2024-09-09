@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b101b026.css",
-    "main.js": "/static/js/main.f6eabe6b.js",
+    "main.css": "/static/css/main.60ccbff7.css",
+    "main.js": "/static/js/main.17849b6d.js",
+    "static/media/LatoLatin-Regular.ttf": "/static/media/LatoLatin-Regular.1a161b4d22d2947c3d3e.ttf",
     "static/media/logoBlank.png": "/static/media/logoBlank.d07515f10c5ccdfed025.png",
     "static/media/Captura-Regular.ttf": "/static/media/Captura-Regular.7eb0ac872e04537a6b33.ttf",
-    "static/media/Carniola.ttf": "/static/media/Carniola.565662b42f131919b112.ttf",
+    "static/media/LatoLatin-Regular.woff": "/static/media/LatoLatin-Regular.ddabf82b5d4d1b866907.woff",
     "static/media/Captura-Regular.woff": "/static/media/Captura-Regular.cc1cc936aa9568f0f635.woff",
     "static/media/Diodrum-Semibold.ttf": "/static/media/Diodrum-Semibold.8095152ff044d22e2bbf.ttf",
+    "static/media/LatoLatin-Regular.woff2": "/static/media/LatoLatin-Regular.f42ffe0a26eed80e72e2.woff2",
     "static/media/Captura-Regular.woff2": "/static/media/Captura-Regular.537d677b82ff310ea683.woff2",
-    "static/media/Carniola.woff": "/static/media/Carniola.a7e763d3233d5ef9d45c.woff",
-    "static/media/Carniola.woff2": "/static/media/Carniola.4f3982f82f609c871935.woff2",
     "static/media/Diodrum-Semibold.woff": "/static/media/Diodrum-Semibold.5b6afd5b81f2ed2882ed.woff",
     "static/media/Diodrum-Semibold.woff2": "/static/media/Diodrum-Semibold.5714cda66503b63c6c62.woff2",
     "index.html": "/index.html",
-    "main.b101b026.css.map": "/static/css/main.b101b026.css.map",
-    "main.f6eabe6b.js.map": "/static/js/main.f6eabe6b.js.map"
+    "main.60ccbff7.css.map": "/static/css/main.60ccbff7.css.map",
+    "main.17849b6d.js.map": "/static/js/main.17849b6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b101b026.css",
-    "static/js/main.f6eabe6b.js"
+    "static/css/main.60ccbff7.css",
+    "static/js/main.17849b6d.js"
   ]
 }
