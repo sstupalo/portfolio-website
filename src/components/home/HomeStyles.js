@@ -33,6 +33,7 @@ export const LeftContainer = styled.div`
 
 export const RightContainer = styled.div`
   display: flex;
+  flex-direction: column;
   width: 35%;
   @media (max-width: 768px) {
     display: none;
@@ -131,6 +132,7 @@ export const ProfilePictureContainer = styled.div`
   display: flex;
   width: 100%;
   background-color: #747474FF;
+  margin-bottom: 3%;
 `
 
 export const ProfilePicture = styled.img`

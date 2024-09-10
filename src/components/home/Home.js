@@ -50,12 +50,15 @@ function Home({data}) {
               <DownloadIcon icon={faDownload}/><DownloadButtonText>Download Resume</DownloadButtonText>
             </DownloadButton>
           </LinkContainer> */}
-          <SubHeading title='Welcome to my website!'/>
+          {/* <SubHeading title='About:'/> */}
           <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
           <ProfilePictureContainer>
             <ProfilePicture src={data.profileImage}/>
+          </ProfilePictureContainer>
+          <ProfilePictureContainer>
+            <ProfilePicture src={data.fullImage}/>
           </ProfilePictureContainer>
         </RightContainer>
         <BottomContainer>
