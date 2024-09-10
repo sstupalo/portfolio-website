@@ -132,7 +132,8 @@ export const ProfilePictureContainer = styled.div`
   display: flex;
   width: 100%;
   background-color: #747474FF;
-  margin-bottom: 3%;
+  margin-bottom: 3%;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 `
 
 export const ProfilePicture = styled.img`

@@ -1,63 +1,83 @@
 import React, { useState } from 'react';
-import { PageHeader, SubHeading } from '../global/Global';
+import { PageHeader } from '../global/Global';
 import {
-    ContactPageContainer,
-    ContactContainer,
-    ContactForm,
-    Input,
-    TextArea,
-    Button,
-    ContactMessage
-} from './contactStyles';
+  FormContainer,
+  InputField,
+  TextArea,
+  SubmitButton,
+  StatusMessage,
+  ExperiencePageContainer
+} from './contactStyles.js';
+import emailjs from 'emailjs-com';
 
+const Contact = () => {
+  const [fromName, setFromName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [status, setStatus] = useState('');
 
-function Contact({data}) {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [sent, setSent] = useState(false);
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      // Here you can implement the logic to send the email
-      setSent(true);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const serviceID = 'service_ugevjx9';
+    const templateID = 'template_zm1ja0j';
+    const userID = 'VQzmYQOTuO2Byw1zW';
+
+    const templateParams = {
+      from_name: fromName, // The user's name
+      reply_to: email,     // The user's email (used for reply-to)
+      message: message,    // The user's message
     };
 
-    return (
-      <ContactPageContainer>
-        <PageHeader title='Contact Me'/>
-        <ContactContainer>
-            <h2>Contact Me</h2>
-            <ContactForm onSubmit={handleSubmit}>
-                <Input
-                type="text"
-                placeholder="Your Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                required
-                />
-                <Input
-                type="email"
-                placeholder="Your Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                />
-                <TextArea
-                placeholder="Your Message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                rows="5"
-                required
-                />
-                <Button type="submit">Send</Button>
-            </ContactForm>
-            {sent && <ContactMessage>Your message has been sent successfully!</ContactMessage>}
-            <p>If you'd like to make an enquiry, please feel free to get in touch, and I will respond as soon as possible.</p>
-            <p>If you prefer to contact me directly, send your email to: <a href="mailto:sophie@stupalo.com">sophie@stupalo.com</a></p>
-        </ContactContainer>
-    </ContactPageContainer> 
-  )
-}
+    emailjs.send(serviceID, templateID, templateParams, userID)
+      .then((response) => {
+        setStatus('Message sent successfully!');
+        setFromName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch((error) => {
+        setStatus('Failed to send the message, please try again.');
+        console.error('EmailJS error:', error);
+      });
+  };
 
-export default Contact
+  return (
+    <ExperiencePageContainer>
+      <PageHeader title="Contact Me"/>
+      <FormContainer onSubmit={sendEmail}>
+        {/* Input field for the user's name */}
+        <InputField
+          type="text"
+          placeholder="Your Name"
+          value={fromName}
+          onChange={(e) => setFromName(e.target.value)}
+          required
+        />
+
+        {/* Input field for the user's email */}
+        <InputField
+          type="email"
+          placeholder="Your Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+
+        {/* Text area for the user's message */}
+        <TextArea
+          placeholder="Your Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+        />
+
+        <SubmitButton type="submit">Send</SubmitButton>
+
+        {status && <StatusMessage>{status}</StatusMessage>}
+      </FormContainer>
+    </ExperiencePageContainer>
+  );
+};
+
+export default Contact;

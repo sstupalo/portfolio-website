@@ -33,7 +33,7 @@ function Navbar({data}) {
               <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
               <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
               {/* <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink> */}
-              {/* <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink> */}
+              <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink>
             </NavbarLinkContainerDesktop>
             <OpenLinksButton
               onClick={() => {
@@ -56,7 +56,7 @@ function Navbar({data}) {
           <NavbarLink to={data.experiencePath}> {data.experienceText}</NavbarLink>
           <NavbarLink to={data.projectsPath}> {data.projectsText}</NavbarLink>
           {/* <NavbarLink to={data.awardsPath}> {data.awardsText}</NavbarLink> */}
-          {/* <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink> */}
+          <NavbarLink to={data.contactPath}> {data.contactText}</NavbarLink>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
