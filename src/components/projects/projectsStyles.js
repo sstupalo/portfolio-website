@@ -10,11 +10,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ProjectsPageContainer = styled.div`
   width: 100%;
+  min-height: 100vh;
   height: 100%;
   background-color: #FFFFFFFF;
   display: flex;
   flex-direction: column;
-  height: 100%;
 `;
 
 export const TileContainer = styled.div`
