@@ -128,17 +128,11 @@ export const AboutMeParagraph = styled.p`
   text-align: justify;
 `
 
-export const ProfilePictureContainer = styled.div`
+export const ProfilePicture = styled.img`
   display: flex;
   width: 100%;
-  background-color: #747474FF;
+  max-width: 100%;
   margin-bottom: 3%;  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-`
-
-export const ProfilePicture = styled.img`
-  width: 99%;
-  max-width: 99%;
   height: auto;
-  padding: 0.5%;
 `

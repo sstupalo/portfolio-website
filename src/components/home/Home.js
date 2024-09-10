@@ -16,7 +16,6 @@ import {
   ButtonText,
   DownloadButtonText,
   AboutMeParagraph,
-  ProfilePictureContainer,
   ProfilePicture
 } from './HomeStyles';
 import { faGraduationCap, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
@@ -54,17 +53,12 @@ function Home({data}) {
           <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
-          <ProfilePictureContainer>
-            <ProfilePicture src={data.profileImage}/>
-          </ProfilePictureContainer>
-          <ProfilePictureContainer>
-            <ProfilePicture src={data.fullImage}/>
-          </ProfilePictureContainer>
+          <ProfilePicture src={data.profileImage}/>
+          <ProfilePicture src={data.fullImage}/>
         </RightContainer>
         <BottomContainer>
-          <ProfilePictureContainer>
-            <ProfilePicture src={data.profileImage}/>
-          </ProfilePictureContainer>
+          <ProfilePicture src={data.profileImage}/>
+          <ProfilePicture src={data.fullImage}/>
         </BottomContainer>
       </ContentContainer>
     </HomePageContainer> 
