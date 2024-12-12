@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'diodrum';
-    src: url('./Diodrum-Semibold.ttf') format('ttf'),
-    url('./Diodrum-Semibold.woff') format('woff'),
-    url('./Diodrum-Semibold.woff2') format('woff2');
+    src: url('./Diodrum-Semibold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,9 +14,7 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('./LatoLatin-Regular.ttf') format('ttf'),
-    url('./LatoLatin-Regular.woff') format('woff'),
-    url('./LatoLatin-Regular.woff2') format('woff2');
+    src: url('./LatoLatin-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
