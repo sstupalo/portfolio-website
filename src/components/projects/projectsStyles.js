@@ -198,8 +198,8 @@ export const ModalTopContainer = styled.div`
 export const ModalSubtitle = styled.h2`
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 14pt;
+    font-weight: 400;
+    font-size: 12pt;
     color: #FFC9C9FF;
     margin-top: 0%;
     margin-bottom: 0%;
