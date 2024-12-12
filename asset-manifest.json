@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd05f0b6.css",
-    "main.js": "/static/js/main.3ce2160c.js",
+    "main.css": "/static/css/main.722a21c0.css",
+    "main.js": "/static/js/main.47121cc2.js",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/LatoLatin-Regular.ttf": "/static/media/LatoLatin-Regular.1a161b4d22d2947c3d3e.ttf",
     "static/media/logoBlank.png": "/static/media/logoBlank.d07515f10c5ccdfed025.png",
-    "static/media/Captura-Regular.ttf": "/static/media/Captura-Regular.7eb0ac872e04537a6b33.ttf",
-    "static/media/LatoLatin-Regular.woff": "/static/media/LatoLatin-Regular.ddabf82b5d4d1b866907.woff",
-    "static/media/Captura-Regular.woff": "/static/media/Captura-Regular.cc1cc936aa9568f0f635.woff",
     "static/media/Diodrum-Semibold.ttf": "/static/media/Diodrum-Semibold.8095152ff044d22e2bbf.ttf",
-    "static/media/LatoLatin-Regular.woff2": "/static/media/LatoLatin-Regular.f42ffe0a26eed80e72e2.woff2",
-    "static/media/Captura-Regular.woff2": "/static/media/Captura-Regular.537d677b82ff310ea683.woff2",
-    "static/media/Diodrum-Semibold.woff": "/static/media/Diodrum-Semibold.5b6afd5b81f2ed2882ed.woff",
-    "static/media/Diodrum-Semibold.woff2": "/static/media/Diodrum-Semibold.5714cda66503b63c6c62.woff2",
     "index.html": "/index.html",
-    "main.dd05f0b6.css.map": "/static/css/main.dd05f0b6.css.map",
-    "main.3ce2160c.js.map": "/static/js/main.3ce2160c.js.map"
+    "main.722a21c0.css.map": "/static/css/main.722a21c0.css.map",
+    "main.47121cc2.js.map": "/static/js/main.47121cc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd05f0b6.css",
-    "static/js/main.3ce2160c.js"
+    "static/css/main.722a21c0.css",
+    "static/js/main.47121cc2.js"
   ]
 }
