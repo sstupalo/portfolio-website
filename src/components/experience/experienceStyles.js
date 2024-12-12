@@ -39,7 +39,7 @@ export const GroupContainer = styled.div`
 
 export const CompanyText = styled.h1`
   color: #2B2B2BFF;
-  font-family: 'captura';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16pt;
@@ -52,10 +52,10 @@ export const CompanyText = styled.h1`
 
 export const PositionText = styled.h2`
   color: #747474FF;
-  font-family: 'captura';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 12pt;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -65,7 +65,7 @@ export const PositionText = styled.h2`
 
 export const DateText = styled.h3`
   color: #FFC9C9FF;
-  font-family: 'captura';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 12pt;

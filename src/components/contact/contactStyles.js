@@ -90,7 +90,7 @@ export const TextArea = styled.textarea`
 `;
 
 export const SubmitButton = styled.button`
-  font-family: 'captura';
+  font-family: 'poppins';
   font-weight: 600;
   font-size: 16pt;
   color: #FFFFFF;

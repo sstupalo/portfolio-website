@@ -49,7 +49,7 @@ export const NavbarLinkContainerDesktop = styled.div`
 export const NavbarLink = styled(NavLink)`
   color: #747474FF;
   font-size: 20px;
-  font-family: 'captura';
+  font-family: 'poppins';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;

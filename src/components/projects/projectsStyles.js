@@ -78,7 +78,7 @@ export const FilterContainer = styled.div`
 export const FilterButton = styled.button`
   color: #747474FF;
   font-size: 22px;
-  font-family: 'captura';
+  font-family: 'poppins';
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -196,7 +196,7 @@ export const ModalTopContainer = styled.div`
 `
 
 export const ModalSubtitle = styled.h2`
-    font-family: 'captura';
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 14pt;
@@ -206,7 +206,7 @@ export const ModalSubtitle = styled.h2`
 `
 
 export const ModalDate = styled.h2`
-    font-family: 'captura';
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 12pt;

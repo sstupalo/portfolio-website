@@ -8,10 +8,8 @@
 }
 
 @font-face {
-    font-family: 'captura';
-    src: url('./Captura-Regular.ttf') format('ttf'),
-    url('./Captura-Regular.woff') format('woff'),
-    url('./Captura-Regular.woff2') format('woff2');
+    font-family: 'poppins';
+    src: url('./Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
