@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { PageHeader} from '../global/Global';
 import {
   HomePageContainer,
@@ -12,20 +13,27 @@ import {
 
 
 function Home({data}) {
+  const  [queryParameters] = useSearchParams()
+  if (queryParameters.get("aud") === "eng") {
+    localStorage.setItem("isEngineering", "true");
+  }
+
+  const aboutMeContent = localStorage.getItem("isEngineering") === "true"
+  ? data.aboutMeEng
+  : data.aboutMeMed; 
+
   return (
     <HomePageContainer>
       <PageHeader title='Sophie Stupalo'/>
       <ContentContainer> 
         <LeftContainer>
-          <AboutMeParagraph>{data.aboutMeParagraph}</AboutMeParagraph>
+          <AboutMeParagraph>{aboutMeContent}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
           <ProfilePicture src={data.profileImage}/>
-          <ProfilePicture src={data.fullImage}/>
         </RightContainer>
         <BottomContainer>
           <ProfilePicture src={data.profileImage}/>
-          <ProfilePicture src={data.fullImage}/>
         </BottomContainer>
       </ContentContainer>
     </HomePageContainer> 
