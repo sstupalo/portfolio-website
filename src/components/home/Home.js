@@ -11,6 +11,27 @@ import {
   ProfilePicture
 } from './HomeStyles';
 
+import { Link } from "react-router-dom";
+
+function renderAboutMeTextWithLinks(text) {
+  const linkMap = {
+    "experience page": "/experience",
+    "projects page": "/projects"
+  };
+
+  const parts = text.split(/(\bexperience page\b|\bprojects page\b)/);
+
+  return parts.map((part, index) => {
+    if (linkMap[part]) {
+      return (
+        <Link key={index} to={linkMap[part]} style={{ color: "blue", textDecoration: "underline" }}>
+          {part}
+        </Link>
+      );
+    }
+    return part;
+  });
+}
 
 function Home({data}) {
   const  [queryParameters] = useSearchParams()
@@ -27,7 +48,7 @@ function Home({data}) {
       <PageHeader title='Sophie Stupalo'/>
       <ContentContainer> 
         <LeftContainer>
-          <AboutMeParagraph>{aboutMeContent}</AboutMeParagraph>
+          <AboutMeParagraph>{renderAboutMeTextWithLinks(aboutMeContent)}</AboutMeParagraph>
         </LeftContainer>
         <RightContainer>
           <ProfilePicture src={data.profileImage}/>
