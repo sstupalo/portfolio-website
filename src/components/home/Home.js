@@ -1,5 +1,5 @@
-import React from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, {useState} from 'react';
+import { useSearchParams, Link } from 'react-router-dom';
 import { PageHeader} from '../global/Global';
 import {
   HomePageContainer,
@@ -7,11 +7,9 @@ import {
   LeftContainer,
   RightContainer,
   BottomContainer,
-  AboutMeParagraph,
+  AboutMe,
   ProfilePicture
 } from './HomeStyles';
-
-import { Link } from "react-router-dom";
 
 function renderAboutMeTextWithLinks(text) {
   const linkMap = {
@@ -24,7 +22,7 @@ function renderAboutMeTextWithLinks(text) {
   return parts.map((part, index) => {
     if (linkMap[part]) {
       return (
-        <Link key={index} to={linkMap[part]} style={{ color: "blue", textDecoration: "underline" }}>
+        <Link key={index} to={linkMap[part]} style={{ color: '#2B2B2BFF', textDecoration: 'underline' }}>
           {part}
         </Link>
       );
@@ -35,10 +33,14 @@ function renderAboutMeTextWithLinks(text) {
 
 function Home({data}) {
   const  [queryParameters] = useSearchParams()
+  const [showMore, setShowMore] = useState(false);
+
+  // Set engineering flag based on URL query
   if (queryParameters.get("aud") === "eng") {
     localStorage.setItem("isEngineering", "true");
   }
 
+  // Determine which content to display based on the localStorage value
   const aboutMeContent = localStorage.getItem("isEngineering") === "true"
   ? data.aboutMeEng
   : data.aboutMeMed; 
@@ -48,7 +50,24 @@ function Home({data}) {
       <PageHeader title='Sophie Stupalo'/>
       <ContentContainer> 
         <LeftContainer>
-          <AboutMeParagraph>{renderAboutMeTextWithLinks(aboutMeContent)}</AboutMeParagraph>
+          {/* Show the first part of the About Me text */}
+          <AboutMe>
+            {renderAboutMeTextWithLinks(aboutMeContent)}
+            {/* "keep reading..." or "show less" text */}
+            <span
+              style={{
+                color: '#2B2B2BFF',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+                display: 'inline',
+              }}
+              onClick={() => setShowMore(!showMore)}
+            >
+              {showMore ? 'show less' : 'keep reading...'}
+            </span>
+          </AboutMe>
+          {/* Conditionally render the additional aboutMeContinued content only when showMore is true */}
+          {showMore && <AboutMe>{renderAboutMeTextWithLinks(data.aboutMeContinued)}</AboutMe>}
         </LeftContainer>
         <RightContainer>
           <ProfilePicture src={data.profileImage}/>

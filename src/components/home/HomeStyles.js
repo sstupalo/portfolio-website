@@ -115,7 +115,7 @@ export const DownloadButtonText = styled(ButtonText)`
   color: #FFC9C9FF;
 `
 
-export const AboutMeParagraph = styled.p`
+export const AboutMe = styled.p`
   font-size: 17pt;
   font-family: 'lato';
   font-weight: normal;
