@@ -1,7 +1,8 @@
 import { React, useState, useEffect } from 'react';
 import { PageHeader } from '../global/Global';
-import { useSearchParams} from 'react-router-dom';
-import { Tile } from './Tile';
+import { useNavigate, useParams, useSearchParams} from 'react-router-dom';
+import Tile from './Tile';
+import ProjectModal from './ProjectModal';
 import {
   ProjectsPageContainer,
   TileContainer,
@@ -10,11 +11,19 @@ import {
 } from './projectsStyles';
 
 function Projects({data}) {
+  
+  const navigate = useNavigate()
+  const [selectedId, setSelectedId] = useState('');
+  const {projectId} = useParams()
+  useEffect(() => {
+    setSelectedId(projectId)
+  }, [projectId])
+  const handleSetSelectedId = (url) => navigate(`/projects/${url}`)
+  
   const [filtered, setFiltered] = useState([]);
   const [activeType, setActiveType]  = useState('All');
 
-  const  [queryParameters] = useSearchParams()
-  const [showMore, setShowMore] = useState(false);
+  const  [queryParameters] = useSearchParams();
 
   // Set engineering flag based on URL query
   if (queryParameters.get("aud") === "eng") {
@@ -27,9 +36,10 @@ function Projects({data}) {
       <Filter project={data.projectList} setFiltered={setFiltered} activeType={activeType} setActiveType={setActiveType}/>
       <TileContainer> 
         {filtered.map((project) => {
-          return <Tile data={project}/>;
+          return <Tile data={project} handleSetOpen={handleSetSelectedId}/>;
         })}
       </TileContainer>
+      {selectedId && <ProjectModal data={data.projectList.find(project => project.url === selectedId)} handleSetClose={handleSetSelectedId}/>}
     </ProjectsPageContainer> 
   )
 }

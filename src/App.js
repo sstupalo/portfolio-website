@@ -20,6 +20,7 @@ function App() {
             <Route path={data.header.homePath} element={<Home data={data.home}/>}/>
             <Route path={data.header.experiencePath} element={<Experience data={data.experience}/>}/>
             <Route path={data.header.projectsPath} element={<Projects data={data.projects}/>}/>
+            <Route path={`${data.header.projectsPath}/:projectId`} element={<Projects data={data.projects}/>}/>
             <Route path={data.header.contactPath} element={<Contact data={data.contact}/>}/>
           </Routes>
         </ContentWrapper>

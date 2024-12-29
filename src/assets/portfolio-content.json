@@ -11,7 +11,7 @@
       "experiencePath": "/experience",
       "projectsPath": "/projects",
       "awardsPath": "/awards",
-      "contactPath": "/contact"
+      "contactPath": "/contact"      
     },
     "home": {
       "resumeLink": "/documents/SophieStupaloOfficialResume.pdf",
@@ -97,6 +97,7 @@
       "projectList":[
         {
           "id": 11,
+          "url": "pressure-pro",
           "title": "PressurePro",
           "subtitle": "Fourth Year Design Project",
           "date": "2022 - 2024",
@@ -108,6 +109,7 @@
         },
         {
           "id": 1,
+          "url": "lacrosse-club",
           "title": "Lacrosse Club",
           "subtitle": "University Athletics Club",
           "date": "2019 - 2024",
@@ -118,6 +120,7 @@
         },
         {
           "id": 2,
+          "url": "portfolio-website",
           "title": "Portfolio Website",
           "subtitle": "Personal ReactJS Project",
           "date": "2023",
@@ -128,6 +131,7 @@
         },
         {
           "id": 12,
+          "url": "knitted-knockers",
           "title": "Knitted Knockers",
           "subtitle": "Handmade Breast Prostheses",
           "date": "2023 - Present",
@@ -138,6 +142,7 @@
         },
         {
           "id": 13,
+          "url": "ultrasound-device",
           "title": "Ultrasound Device",
           "subtitle": "Medical Imaging Design Project",
           "date": "2022",
@@ -149,6 +154,7 @@
         },
         {
           "id": 3,
+          "url": "deadlift-analysis",
           "title": "Deadlift Analysis",
           "subtitle": "MOCAP Research Project",
           "date": "2022",
@@ -160,6 +166,7 @@
         },
         {
           "id": 4,
+          "url": "physiological-modelling",
           "title": "Physiological Modelling",
           "subtitle": "Optimizing FES Parameters",
           "date": "2022",
@@ -171,6 +178,7 @@
         },
         {
           "id": 10,
+          "url": "waterfall-coffee-table",
           "title": "Waterfall Coffee Table",
           "subtitle": "Woodworking",
           "date": "2022",
@@ -181,6 +189,7 @@
         },
         {
           "id": 14,
+          "url": "crocheted-blanket",
           "title": "Crocheted Blanket",
           "subtitle": "Handmade Gift",
           "date": "2023",
@@ -191,6 +200,7 @@
         },
         {
           "id": 5,
+          "url": "upright",
           "title": "Upright",
           "subtitle": "Peripheral Neuropathy Solution",
           "date": "2021",
@@ -202,6 +212,7 @@
         },
         {
           "id": 8,
+          "url": "trebuchet",
           "title": "Trebuchet",
           "subtitle": "Grade 12 Physics Project",
           "date": "2019",
@@ -212,6 +223,7 @@
         },
         {
           "id": 9,
+          "url": "deck",
           "title": "Deck",
           "subtitle": "Family Project",
           "date": "2013 - 2016",
