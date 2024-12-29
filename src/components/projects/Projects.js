@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import { PageHeader } from '../global/Global';
+import { useSearchParams} from 'react-router-dom';
 import { Tile } from './Tile';
 import {
   ProjectsPageContainer,
@@ -12,6 +13,13 @@ function Projects({data}) {
   const [filtered, setFiltered] = useState([]);
   const [activeType, setActiveType]  = useState('All');
 
+  const  [queryParameters] = useSearchParams()
+  const [showMore, setShowMore] = useState(false);
+
+  // Set engineering flag based on URL query
+  if (queryParameters.get("aud") === "eng") {
+    localStorage.setItem("isEngineering", "true");
+  }
 
   return (
     <ProjectsPageContainer>
