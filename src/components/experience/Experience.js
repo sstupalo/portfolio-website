@@ -74,7 +74,7 @@ function Experience({ data }) {
 
   // Map experience items for carousel
   const experienceItems = data.experienceList.map((experience) => (
-    <CarouselItemContainer id={experience.id}>
+    <CarouselItemContainer key={experience.id} id={experience.id}>
       <GroupContainer>
         <PositionContainer>
           <CompanyText>{experience.company}</CompanyText>
@@ -99,7 +99,7 @@ function Experience({ data }) {
       ) : (
         <Timeline>
           {data.experienceList.map((experience, index) => (
-            <TimelineItem id={experience.id}>
+            <TimelineItem key={experience.id} id={experience.id}>
               <TimelineOppositeContent sx={{ flex: 0.35 }}>
                 <CompanyText>{experience.company}</CompanyText>
                 <PositionText>{experience.position}</PositionText>
