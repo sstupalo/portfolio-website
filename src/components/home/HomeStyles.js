@@ -40,7 +40,7 @@ export const RightContainer = styled.div`
   }
 `
 
-export const BottomContainer = styled.div`
+export const TopContainer = styled.div`
   display: flex;
   width: 100%;
   padding-bottom: 4%;

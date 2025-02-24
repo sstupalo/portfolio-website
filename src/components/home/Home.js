@@ -6,7 +6,7 @@ import {
   ContentContainer,
   LeftContainer,
   RightContainer,
-  BottomContainer,
+  TopContainer,
   AboutMe,
   ProfilePicture
 } from './HomeStyles';
@@ -49,6 +49,9 @@ function Home({data}) {
     <HomePageContainer>
       <PageHeader title='Sophie Stupalo'/>
       <ContentContainer> 
+        <TopContainer>
+          <ProfilePicture src={data.profileImage}/>
+        </TopContainer>
         <LeftContainer>
           {/* Show the first part of the About Me text */}
           <AboutMe>
@@ -72,9 +75,6 @@ function Home({data}) {
         <RightContainer>
           <ProfilePicture src={data.profileImage}/>
         </RightContainer>
-        <BottomContainer>
-          <ProfilePicture src={data.profileImage}/>
-        </BottomContainer>
       </ContentContainer>
     </HomePageContainer> 
   )
