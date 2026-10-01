@@ -28,6 +28,22 @@
     "experience":{
       "experienceList":[
         {
+          "id": 10,
+          "company": "Quasar Consulting Group",
+          "position": "Electrical Designer",
+          "dates": "May 2025 - Present",
+          "image": "/images/quasar.png",
+          "content": "Under construction.As an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students inAs an Emergency Replacement Person, I was responsible for providing support to teachers and students in"
+        },
+        {
+          "id": 9,
+          "company": "Nipissing-Parry Sound Catholic District School Board",
+          "position": "Emergency Replacement Persons",
+          "dates": "Feb 2025 - Apr 2025",
+          "image": "/images/npsc.png",
+          "content": "As an Emergency Replacement Person, I was responsible for providing support to teachers and students in the classroom. This role involved implementing lesson plans, managing classroom behavior, and ensuring a positive learning environment."
+        },
+        {
           "id": 1,
           "company": "Trudell Medical International",
           "position": "New Product Development Engineering Intern",
@@ -106,6 +122,17 @@
           "content": "To complete my biomedical engineering degree at the University of Waterloo, I participated in a capstone project, a team-based design project that is intended to showcase the skills we developed throughout the program. Our team chose to address a critical healthcare challenge: preventing pressure ulcers in wheelchair users. Specifically, we developed an accessory device for the ROHO® QUADTRO SELECT® HIGH PROFILE® air-filled wheelchair cushion that dynamically maintains ideal pressure levels in each quadrant, as prescribed by an occupational therapist.\n\nUnlike many engineering disciplines, our capstone project spanned multiple academic terms (3B, 4A, and 4B), allowing us to thoroughly practice the engineering design process. During the 3B term, our focus was on conducting a comprehensive needs assessment. By 4A, we had identified the specific problem to solve and had worked closely with patients, occupational therapists, and general practitioners to understand the issue’s root causes and define clear requirements and constraints for our solution.\n\nOur ideation phase began with a brainstorming session loosely based on the Lightning Decision Jam methodology. Each team member then independently created two distinct design sketches, which we evaluated against our requirements using a Best of Class Chart. This analysis led us to select the most plausible solution to pursue in further design stages.\n\nGiven my prior product development experience, I anticipated the challenges of managing a complex project like this. To ensure our success, I created a shared Notion workspace for the team, organizing tasks with a Work Breakdown Structure and setting internal deadlines. This was a vital tool in keeping us accountable and on track, enabling us to create three prototypes—low, medium, and high fidelity—while many teams only managed one or two. Further, testing these prototypes highlighted flaws early, allowing us to refine our designs significantly before constructing the final version.\n\nAs the project progressed, we divided into two sub-teams: electrical and mechanical design, and software and algorithm development. I took on the role of Lead Electrical Designer, responsible for designing the electrical schematics for all three prototypes, including the user interface. Once the schematics were complete, I led the sourcing of components, critically evaluating options with my teammates to optimize features like battery life.\n\nBeyond my electrical responsibilities, I embraced several mechanical design tasks due to my interest in the field. One of my favourite tasks was reverse engineering the ROHO cushion’s spool valve, which controls air distribution across its quadrants in the manufacturer’s original design. Once I had created the initial design for this interface component, further iterations focused on reducing its size to avoid creating new pressure points under a user’s thighs. Another key mechanical task was designing the housing for the high-fidelity prototype. Using SolidWorks, I created 3D models of all components and organized them in an assembly that prioritized maintaining straight tubes connections between the different components.\n\nTo manufacture the housing and spool valve, I completed online and in-person training to use the large-format filament and SLA 3D printers available in the WatiMAKE lab, as my personal 3D printer was not suitable for these tasks. Additionally, I constructed and soldered all three prototypes, ensuring they were fully functional for testing.\n\nThroughout the project, I meticulously documented every meeting and work session in an engineering logbook, which totaled 146 entries by the project’s conclusion. This logbook maintained traceability for my tasks and I incorporated progress photos and reflections to ensure clarity.\n\nWorking on this project was a deeply rewarding experience. I often lost track of time while immersed in design work or building in the workshop. I was fortunate to have an incredible team where each member brought unique strengths, and we resolved conflicts effectively using evidence-driven approaches. This experience showed me how teamwork and a structured engineering design process can make tackling large, real-world problems surprisingly easy.",
           "contentImages": ["/images/capstone/1.jpg", "/images/capstone/2.png", "/images/capstone/3.png", "/images/capstone/4.png", "/images/capstone/5.png", "/images/capstone/6.png", "/images/capstone/7.png", "/images/capstone/8.png", "/images/capstone/9.png", "/images/capstone/10.png", "/images/capstone/11.png", "/images/capstone/12.png", "/images/capstone/13.png", "/images/capstone/14.png", "/images/capstone/15.png", "/images/capstone/16.png", "/images/capstone/17.png", "/images/capstone/18.png", "/images/capstone/19.png", "/images/capstone/20.png", "/images/capstone/21.png", "/images/capstone/22.png", "/images/capstone/23.png"],
           "document": "/documents/BME462SymposiumPosterandFinalReports.pdf"
+        },
+        {
+          "id": 15,
+          "url": "cow-car",
+          "title": "Cow Car",
+          "subtitle": "Silly Personal Project",
+          "date": "2026",
+          "typeId": ["Personal"],
+          "image": "/images/lax/cover.jpg",
+          "content": "Under construction.",
+          "contentImages": ["/images/cow/1.png"]
         },
         {
           "id": 1,
@@ -234,11 +261,8 @@
         }
       ]
     },
-    "awards":{
-
-    },
     "footer":{
-      "text": "Sophie Stupalo 2024",
+      "text": "Sophie Stupalo 2026",
       "linkText": "CC BY-SA 4.0",
       "copyrightUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "linkedinUrl": "https://www.linkedin.com/in/sophie-stupalo-2380a3194/",
