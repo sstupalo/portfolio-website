@@ -10,5 +10,7 @@ npm run start - to host locally
 
 
 
-npm run build - to deploy
+npm run build
+
+npm run deploy - to deploy
 
